@@ -1,0 +1,1 @@
+PASS: 128 duty values; native level quantization and held changes; legato/held-key return; reset defaults; release versus hard silence; triangle gate; channel isolation; removed combination bank; shared bass/tom voice

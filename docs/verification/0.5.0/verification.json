@@ -1,0 +1,14 @@
+{
+  "version": "0.5.0",
+  "sdkTestsPassed": 47,
+  "sdkTestsFailed": 0,
+  "nativeInstrumentVoiceLabels": 822,
+  "visibleCollections": 121,
+  "sourceRecipes": 3591,
+  "mm3mm4OriginalDriverProbeCases": 1056,
+  "knightManHostRegression": "sample-identical",
+  "limitations": [
+    "Per-voice names and percussion role approximations require listening judgment.",
+    "Held-note program changes apply at next attack."
+  ]
+}

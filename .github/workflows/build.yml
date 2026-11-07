@@ -1,0 +1,16 @@
+name: Windows VST3
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build instrument and run tests
+        shell: pwsh
+        run: ./tools/build.ps1 -Generator 'Visual Studio 17 2022'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MM-Studio-Windows-x64
+          path: build/vst3-studio-050/cmake-release/VST3/Release/MM Studio 0.5.0.vst3/

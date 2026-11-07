@@ -1,0 +1,286 @@
+// MM Studio 0.5.0. Native program addresses unchanged.
+// Descriptive names below use the pulse-voice probe; the plugin provides per-voice labels.
+Bank 0 0 GM percussion kit
+0 Standard kit
+
+Bank 123 0 Mega Man 3 - native instruments
+0 MM3 $00 / Tone / Tight Tail 1
+1 MM3 $01 / Vibrato / Tight Tail 1
+2 MM3 $02 / Tone / Short Tail 1
+3 MM3 $03 / Vibrato / Long Tail 1
+4 MM3 $04 / Tremolo / Long Tail 1
+5 MM3 $05 / Vibrato / Long Tail 2
+6 MM3 $06 / Tone / Medium Tail 1
+7 MM3 $07 / Vibrato / Medium Tail 1
+8 MM3 $08 / Pluck / Long Tail
+9 MM3 $09 / Vibrato Tremolo / Medium Tail 1
+10 MM3 $0A / Tone / Tight Tail 2
+11 MM3 $0B / Tone / Short Tail 2
+12 MM3 $0C / Pitch FX / Tight Tail 1
+13 MM3 $0D / Vibrato Tremolo / Long Tail 1
+14 MM3 $0E / Pitch FX Tremolo / Tight Tail
+15 MM3 $0F / Tremolo / Short Tail 1
+16 MM3 $10 / Swell / Long Tail
+17 MM3 $11 / Tone / Long Tail 1
+18 MM3 $12 / Tone / Medium Tail 2
+19 MM3 $13 / Tone / Long Tail 2
+20 MM3 $14 / Vibrato / Short Tail 1
+21 MM3 $15 / Tone / Medium Tail 3
+22 MM3 $16 / Tone / Short Tail 3
+23 MM3 $17 / Vibrato / Short Tail 2
+24 MM3 $18 / Vibrato Tremolo / Medium Tail 2
+25 MM3 $19 / Pitch FX Tremolo / Long Tail
+26 MM3 $1A / Vibrato Tremolo / Medium Tail 3
+27 MM3 $1B / Vibrato / Long Tail 3
+28 MM3 $1C / Tone / Medium Tail 4
+29 MM3 $1D / Tone / Short Tail 4
+30 MM3 $1E / Vibrato Tremolo / Medium Tail 4
+31 MM3 $1F / Vibrato / Medium Tail 2
+32 MM3 $20 / Tone / Long Tail 3
+33 MM3 $21 / Tone / Long Tail 4
+34 MM3 $22 / Tremolo / Long Tail 2
+35 MM3 $23 / Tremolo / Short Tail 2
+36 MM3 $24 / Tone / Long Tail 5
+37 MM3 $25 / Tremolo / Long Tail 3
+38 MM3 $26 / Swell / Short Tail
+39 MM3 $27 / Vibrato Tremolo / Long Tail 2
+40 MM3 $28 / Tone / Tight Tail 3
+41 MM3 $29 / Vibrato / Tight Tail 2
+42 MM3 $2A / Pitch FX / Tight Tail 2
+43 MM3 $2B / Pitch FX / Tight Tail 3
+44 MM3 $2C / Pitch FX / Tight Tail 4
+45 MM3 $2D / Pitch FX / Tight Tail 5
+46 MM3 $2E / Tone / Tight Tail 4
+47 MM3 $2F / Pitch FX / Tight Tail 6
+48 MM3 $30 / Tone / Long Tail 6
+49 MM3 $31 / Pitch FX / Tight Tail 7
+50 MM3 $32 / Tone / Tight Tail 5
+51 MM3 $33 / Pitch FX / Tight Tail 8
+52 MM3 $34 / Vibrato / Tight Tail 3
+53 MM3 $35 / Pluck / Tight Tail
+54 MM3 $36 / Pitch FX / Short Tail
+55 MM3 $37 / Tone / Medium Tail 5
+56 MM3 $38 / Tone / Tight Tail 6
+57 MM3 $39 / Pitch FX / Tight Tail 9
+58 MM3 $3A / Pitch FX / Tight Tail 10
+59 MM3 $3B / Pitch FX / Tight Tail 11
+60 MM3 $3C / Pitch FX / Medium Tail
+
+Bank 124 0 Mega Man 4 - native instruments
+0 MM4 $00 / Tone / Tight Tail 1
+1 MM4 $01 / Pluck / Medium Tail
+2 MM4 $02 / Tone / Medium Tail 1
+3 MM4 $03 / Vibrato / Medium Tail 1
+4 MM4 $04 / Pitch FX / Tight Tail 1
+5 MM4 $05 / Tone / Tight Tail 2
+6 MM4 $06 / Vibrato / Long Tail 1
+7 MM4 $07 / Tremolo / Tight Tail
+8 MM4 $08 / Tone / Medium Tail 2
+9 MM4 $09 / Tone / Short Tail 1
+10 MM4 $0A / Vibrato Tremolo / Tight Tail 1
+11 MM4 $0B / Vibrato Tremolo / Long Tail
+12 MM4 $0C / Vibrato / Medium Tail 2
+13 MM4 $0D / Tone / Short Tail 2
+14 MM4 $0E / Pitch FX / Tight Tail 2
+15 MM4 $0F / Pitch FX / Short Tail 1
+16 MM4 $10 / Vibrato / Medium Tail 3
+17 MM4 $11 / Tone / Tight Tail 3
+18 MM4 $12 / Pluck / Tight Tail 1
+19 MM4 $13 / Vibrato / Short Tail 1
+20 MM4 $14 / Vibrato Tremolo / Medium Tail
+21 MM4 $15 / Vibrato Tremolo / Short Tail 1
+22 MM4 $16 / Tone / Tight Tail 4
+23 MM4 $17 / Tone / Tight Tail 5
+24 MM4 $18 / Vibrato / Short Tail 2
+25 MM4 $19 / Tone / Long Tail 1
+26 MM4 $1A / Vibrato / Short Tail 3
+27 MM4 $1B / Tremolo / Medium Tail
+28 MM4 $1C / Tone / Medium Tail 3
+29 MM4 $1D / Tone / Short Tail 3
+30 MM4 $1E / Tone / Long Tail 2
+31 MM4 $1F / Swell / Short Tail 1
+32 MM4 $20 / Tone / Short Tail 4
+33 MM4 $21 / Pluck / Tight Tail 2
+34 MM4 $22 / Vibrato / Long Tail 2
+35 MM4 $23 / Tremolo / Short Tail
+36 MM4 $24 / Tone / Medium Tail 4
+37 MM4 $25 / Silent 1
+38 MM4 $26 / Tone / Medium Tail 5
+39 MM4 $27 / Silent 2
+40 MM4 $28 / Tone / Tight Tail 6
+41 MM4 $29 / Vibrato / Tight Tail
+42 MM4 $2A / Pitch FX / Tight Tail 3
+43 MM4 $2B / Tone / Short Tail 5
+44 MM4 $2C / Pitch FX / Tight Tail 4
+45 MM4 $2D / Pitch FX / Tight Tail 5
+46 MM4 $2E / Tone / Tight Tail 7
+47 MM4 $2F / Pitch FX / Tight Tail 6
+48 MM4 $30 / Vibrato Tremolo / Short Tail 2
+49 MM4 $31 / Pitch FX / Tight Tail 7
+50 MM4 $32 / Tone / Tight Tail 8
+51 MM4 $33 / Vibrato / Long Tail 3
+52 MM4 $34 / Vibrato Tremolo / Tight Tail 2
+53 MM4 $35 / Pluck / Tight Tail 3
+54 MM4 $36 / Pitch FX / Short Tail 2
+55 MM4 $37 / Tone / Short Tail 6
+56 MM4 $38 / Pitch FX / Tight Tail 8
+57 MM4 $39 / Pluck / Tight Tail 4
+58 MM4 $3A / Tone / Short Tail 7
+59 MM4 $3B / Vibrato / Long Tail 4
+60 MM4 $3C / Pitch FX / Medium Tail
+61 MM4 $3D / Pluck / Tight Tail 5
+62 MM4 $3E / Swell / Short Tail 2
+63 MM4 $3F / Pitch FX / Tight Tail 9
+64 MM4 $40 / Pitch FX Tremolo / Medium Tail
+65 MM4 $41 / Pitch FX Tremolo / Short Tail
+66 MM4 $42 / Pitch FX Tremolo / Tight Tail
+67 MM4 $43 / Swell Tremolo / Long Tail
+68 MM4 $44 / Swell / Medium Tail 1
+69 MM4 $45 / Pitch FX / Tight Tail 10
+70 MM4 $46 / Swell / Medium Tail 2
+
+Bank 125 0 Mega Man 5 - native instruments
+0 MM5 $00 / Tone / Short Tail 1
+1 MM5 $01 / Vibrato / Short Tail 1
+2 MM5 $02 / Tone / Short Tail 2
+3 MM5 $03 / Tone / Long Tail 1
+4 MM5 $04 / Tremolo / Short Tail 1
+5 MM5 $05 / Tone / Medium Tail 1
+6 MM5 $06 / Tone / Short Tail 3
+7 MM5 $07 / Tone / Short Tail 4
+8 MM5 $08 / Vibrato / Medium Tail 1
+9 MM5 $09 / Vibrato Tremolo / Medium Tail 1
+10 MM5 $0A / Tremolo / Short Tail 2
+11 MM5 $0B / Vibrato / Short Tail 2
+12 MM5 $0C / Vibrato / Short Tail 3
+13 MM5 $0D / Vibrato Tremolo / Long Tail
+14 MM5 $0E / Vibrato Tremolo / Short Tail 1
+15 MM5 $0F / Vibrato / Short Tail 4
+16 MM5 $10 / Vibrato / Short Tail 5
+17 MM5 $11 / Vibrato Tremolo / Medium Tail 2
+18 MM5 $12 / Vibrato Tremolo / Medium Tail 3
+19 MM5 $13 / Tremolo / Short Tail 3
+20 MM5 $14 / Pitch FX / Tight Tail 1
+21 MM5 $15 / Pitch FX Tremolo / Tight Tail 1
+22 MM5 $16 / Tone / Short Tail 5
+23 MM5 $17 / Tremolo / Short Tail 4
+24 MM5 $18 / Swell / Medium Tail
+25 MM5 $19 / Pitch FX Tremolo / Tight Tail 2
+26 MM5 $1A / Vibrato Tremolo / Medium Tail 4
+27 MM5 $1B / Vibrato Tremolo / Short Tail 2
+28 MM5 $1C / Tone / Long Tail 2
+29 MM5 $1D / Vibrato / Medium Tail 2
+30 MM5 $1E / Vibrato Tremolo / Medium Tail 5
+31 MM5 $1F / Vibrato / Medium Tail 3
+32 MM5 $20 / Tone / Long Tail 3
+33 MM5 $21 / Tone / Long Tail 4
+34 MM5 $22 / Tremolo / Long Tail 1
+35 MM5 $23 / Pitch FX / Tight Tail 2
+36 MM5 $24 / Vibrato Tremolo / Tight Tail 1
+37 MM5 $25 / Tremolo / Long Tail 2
+38 MM5 $26 / Swell / Short Tail
+39 MM5 $27 / Vibrato Tremolo / Tight Tail 2
+40 MM5 $28 / Tone / Tight Tail 1
+41 MM5 $29 / Vibrato / Tight Tail
+42 MM5 $2A / Pitch FX / Tight Tail 3
+43 MM5 $2B / Pitch FX / Short Tail
+44 MM5 $2C / Pitch FX / Tight Tail 4
+45 MM5 $2D / Pitch FX / Tight Tail 5
+46 MM5 $2E / Tone / Tight Tail 2
+47 MM5 $2F / Pitch FX / Tight Tail 6
+48 MM5 $30 / Pitch FX / Medium Tail
+49 MM5 $31 / Pitch FX / Tight Tail 7
+50 MM5 $32 / Pluck / Tight Tail
+51 MM5 $33 / Pitch FX Tremolo / Tight Tail 3
+52 MM5 $34 / Pitch FX Tremolo / Short Tail 1
+53 MM5 $35 / Tone / Tight Tail 3
+54 MM5 $36 / Vibrato Tremolo / Tight Tail 3
+55 MM5 $37 / Pitch FX Tremolo / Short Tail 2
+56 MM5 $38 / Pitch FX Tremolo / Tight Tail 4
+57 MM5 $39 / Vibrato / Short Tail 6
+58 MM5 $3A / Pitch FX / Tight Tail 8
+59 MM5 $3B / Pitch FX / Tight Tail 9
+60 MM5 $3C / Tone / Long Tail 5
+61 MM5 $3D / Tone / Tight Tail 4
+62 MM5 $3E / Tone / Medium Tail 2
+63 MM5 $3F / Vibrato / Long Tail
+64 MM5 $40 / Pitch FX / Tight Tail 10
+65 MM5 $41 / Pitch FX Tremolo / Medium Tail
+66 MM5 $42 / Pitch FX Tremolo / Short Tail 3
+67 MM5 $43 / Pitch FX Tremolo / Tight Tail 5
+68 MM5 $44 / Pitch FX / Tight Tail 11
+69 MM5 $45 / Vibrato Tremolo / Short Tail 3
+70 MM5 $46 / Pulse Zeroed Entry
+
+Bank 126 0 Mega Man 6 - native instruments
+0 MM6 $00 / Pitch FX Tremolo / Tight Tail 1
+1 MM6 $01 / Vibrato / Tight Tail 1
+2 MM6 $02 / Tone / Short Tail 1
+3 MM6 $03 / Vibrato / Short Tail 1
+4 MM6 $04 / Vibrato Tremolo / Short Tail 1
+5 MM6 $05 / Tone / Medium Tail 1
+6 MM6 $06 / Tremolo / Short Tail
+7 MM6 $07 / Tone / Short Tail 2
+8 MM6 $08 / Tone / Short Tail 3
+9 MM6 $09 / Vibrato / Short Tail 2
+10 MM6 $0A / Tone / Short Tail 4
+11 MM6 $0B / Vibrato / Short Tail 3
+12 MM6 $0C / Vibrato / Short Tail 4
+13 MM6 $0D / Vibrato / Short Tail 5
+14 MM6 $0E / Vibrato Tremolo / Short Tail 2
+15 MM6 $0F / Tone / Short Tail 5
+16 MM6 $10 / Vibrato / Short Tail 6
+17 MM6 $11 / Pitch FX / Tight Tail 1
+18 MM6 $12 / Tremolo / Long Tail 1
+19 MM6 $13 / Vibrato / Short Tail 7
+20 MM6 $14 / Vibrato / Medium Tail 1
+21 MM6 $15 / Pitch FX Tremolo / Tight Tail 2
+22 MM6 $16 / Pitch FX Tremolo / Tight Tail 3
+23 MM6 $17 / Tone / Short Tail 6
+24 MM6 $18 / Vibrato / Short Tail 8
+25 MM6 $19 / Vibrato / Short Tail 9
+26 MM6 $1A / Tone / Medium Tail 2
+27 MM6 $1B / Vibrato / Medium Tail 2
+28 MM6 $1C / Pluck / Tight Tail 1
+29 MM6 $1D / Tone / Short Tail 7
+30 MM6 $1E / Vibrato / Short Tail 10
+31 MM6 $1F / Tremolo / Long Tail 2
+32 MM6 $20 / Vibrato / Short Tail 11
+33 MM6 $21 / Tone / Tight Tail 1
+34 MM6 $22 / Pitch FX / Tight Tail 2
+35 MM6 $23 / Tremolo / Tight Tail
+36 MM6 $24 / Vibrato Tremolo / Tight Tail
+37 MM6 $25 / Vibrato / Short Tail 12
+38 MM6 $26 / Swell / Short Tail
+39 MM6 $27 / Tone / Short Tail 8
+40 MM6 $28 / Tone / Tight Tail 2
+41 MM6 $29 / Vibrato / Tight Tail 2
+42 MM6 $2A / Pitch FX / Tight Tail 3
+43 MM6 $2B / Pitch FX / Short Tail 1
+44 MM6 $2C / Pitch FX / Tight Tail 4
+45 MM6 $2D / Pitch FX / Tight Tail 5
+46 MM6 $2E / Vibrato / Short Tail 13
+47 MM6 $2F / Tone / Medium Tail 3
+48 MM6 $30 / Pitch FX / Medium Tail
+49 MM6 $31 / Pitch FX / Tight Tail 6
+50 MM6 $32 / Pluck / Tight Tail 2
+51 MM6 $33 / Vibrato Tremolo / Short Tail 3
+52 MM6 $34 / Pitch FX / Tight Tail 7
+53 MM6 $35 / Tone / Tight Tail 3
+54 MM6 $36 / Tone / Short Tail 9
+55 MM6 $37 / Tone / Short Tail 10
+56 MM6 $38 / Pitch FX / Short Tail 2
+57 MM6 $39 / Pluck / Tight Tail 3
+58 MM6 $3A / Tone / Short Tail 11
+59 MM6 $3B / Pitch FX / Tight Tail 8
+60 MM6 $3C / Tremolo / Long Tail 3
+61 MM6 $3D / Tone / Tight Tail 4
+62 MM6 $3E / Tone / Medium Tail 4
+63 MM6 $3F / Vibrato / Long Tail
+64 MM6 $40 / Pitch FX / Tight Tail 9
+65 MM6 $41 / Pitch FX Tremolo / Medium Tail
+66 MM6 $42 / Pitch FX Tremolo / Short Tail
+67 MM6 $43 / Pitch FX Tremolo / Tight Tail 4
+68 MM6 $44 / Pitch FX / Tight Tail 10
+69 MM6 $45 / Vibrato Tremolo / Short Tail 4
+70 MM6 $46 / Pitch FX / Short Tail 3
