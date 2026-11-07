@@ -1,0 +1,67 @@
+{
+  "notes": 1558,
+  "channels": {
+    "1": 320,
+    "2": 268,
+    "3": 390,
+    "10": 580
+  },
+  "tempoChanges": 1,
+  "loopStartTick": 4992,
+  "loopEndTick": 9600,
+  "loopStartSeconds": 41.531568,
+  "durationSeconds": 79.8684,
+  "sourceLoopsVerified": 2,
+  "programs": [
+    0,
+    2,
+    5,
+    7,
+    9,
+    11,
+    12,
+    17,
+    22,
+    23,
+    28,
+    29
+  ],
+  "bank": [
+    123,
+    0
+  ],
+  "validation": "Saved MIDI independently decoded against original-ROM trace: all note attacks, pitches, gates, programs, duties, source levels and glide settings; all tempo changes and loop markers. Loop attacks and per-tick controls recur in two native executions.",
+  "heldProgramChanges": [
+    {
+      "tick": 3744,
+      "voice": 2,
+      "program": 5
+    },
+    {
+      "tick": 3936,
+      "voice": 2,
+      "program": 5
+    },
+    {
+      "tick": 4128,
+      "voice": 2,
+      "program": 5
+    },
+    {
+      "tick": 8352,
+      "voice": 2,
+      "program": 5
+    },
+    {
+      "tick": 8544,
+      "voice": 2,
+      "program": 5
+    },
+    {
+      "tick": 8736,
+      "voice": 2,
+      "program": 5
+    }
+  ],
+  "playbackLimitation": "Held-note program events are retained; VST applies them on the next attack."
+}

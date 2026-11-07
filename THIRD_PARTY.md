@@ -22,7 +22,7 @@ MIT license in that revision. Downloaded separately into tools/vst3sdk for compi
 - build/vst3-studio/generated/driver-bank.bin: original Mega Man 5 sound driver/data, with the guarded runtime performance patch applied to a private playback copy.
 - build/vst3-studio-050/generated/NativeBanks.h and MM6Instruments.h: game instrument definitions from Mega Man 3/4/5/6.
 - SongLibrary.h and derived collection/pad data: original game song notes, control sequences and articulations. Human-readable names and catalog logic are project work; the underlying game data remains separately identified.
-- Knight Man and Skull Man examples reproduce original game compositions.
+- Dark Man, Snake Man, Gravity Man, Knight Man and Skull Man examples reproduce original game compositions.
 
 Original game audio code/data and compositions are Capcom material. The project's GPL license and third-party library licenses do not grant rights to those bytes/compositions. No complete game ROM is included.
 

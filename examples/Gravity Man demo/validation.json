@@ -1,0 +1,127 @@
+{
+  "notes": 3204,
+  "channels": {
+    "1": 459,
+    "2": 871,
+    "3": 617,
+    "10": 1257
+  },
+  "tempoChanges": 1,
+  "loopStartTick": 9046,
+  "loopEndTick": 16726,
+  "loopStartSeconds": 81.63732312500001,
+  "durationSeconds": 150.94692312499998,
+  "sourceLoopsVerified": 2,
+  "programs": [
+    0,
+    2,
+    4,
+    11,
+    14,
+    16,
+    17,
+    18,
+    20,
+    21,
+    23,
+    24
+  ],
+  "bank": [
+    125,
+    0
+  ],
+  "validation": "Saved MIDI independently decoded against original-ROM trace: all note attacks, pitches, gates, programs, duties, source levels and glide settings; all tempo changes and loop markers. Loop attacks and per-tick controls recur in two native executions.",
+  "heldProgramChanges": [
+    {
+      "tick": 1272,
+      "voice": 2,
+      "program": 16
+    },
+    {
+      "tick": 1272,
+      "voice": 3,
+      "program": 16
+    },
+    {
+      "tick": 1968,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 2736,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 3504,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 4272,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 4440,
+      "voice": 3,
+      "program": 24
+    },
+    {
+      "tick": 5976,
+      "voice": 3,
+      "program": 24
+    },
+    {
+      "tick": 8964,
+      "voice": 2,
+      "program": 16
+    },
+    {
+      "tick": 8964,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 9648,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 10416,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 11184,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 11952,
+      "voice": 3,
+      "program": 11
+    },
+    {
+      "tick": 12120,
+      "voice": 3,
+      "program": 24
+    },
+    {
+      "tick": 13656,
+      "voice": 3,
+      "program": 24
+    },
+    {
+      "tick": 16644,
+      "voice": 2,
+      "program": 16
+    },
+    {
+      "tick": 16644,
+      "voice": 3,
+      "program": 11
+    }
+  ],
+  "playbackLimitation": "Held-note program events are retained; VST applies them on the next attack."
+}

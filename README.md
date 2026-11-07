@@ -15,11 +15,15 @@ Current release: **0.5.0**, Windows x64, VST3. REAPER is the tested host. Other 
 
 ## Install
 
-Download and extract the release ZIP. Copy the entire `MM Studio 0.5.0.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio 0.5.0** as an instrument. The release includes the REAPER bank file and Knight Man / Skull Man MIDI projects.
+Download and extract the release ZIP. Copy the entire `MM Studio 0.5.0.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio 0.5.0** as an instrument. The release includes the REAPER bank file and Dark Man, Snake Man, Gravity Man, Knight Man and Skull Man MIDI projects.
 
 MIDI channels are 1 = Pulse 1, 2 = Pulse 2, 3 = Triangle, and 10 = Percussion. Toms share the triangle voice with bass. Use the game/song navigator to find sounds; program numbers select native instruments and CCs control their performance settings.
 
 See [REAPER setup](docs/REAPER.md) for recording pad clicks or settings output and for dragging MIDI while stopped.
+
+## Example projects
+
+See [examples](examples/README.md) for five editable MIDI files and ready-to-play REAPER projects with tempo maps, sound settings and loop regions.
 
 ## Compatibility and limitations
 
