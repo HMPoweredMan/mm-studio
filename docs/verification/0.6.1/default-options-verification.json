@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "defaultEnabled": [
+    "quantize",
+    "ignoreUnusedChannels",
+    "retriggerOverlaps",
+    "endAtLoopEnd"
+  ],
+  "noLoopMarkersExportsFullSong": true,
+  "invalidMarkerPairRejected": true,
+  "strictPoliciesTested": true,
+  "privateSourceMidiUnmodified": true,
+  "privateSourceExport": {
+    "notes": 2430,
+    "bytes": 3297,
+    "loopStartTick": 768,
+    "loopEndTick": 14016
+  },
+  "nativePlayback": {
+    "track": "Stage-Zero",
+    "passed": true,
+    "attackCounts": [
+      766,
+      687,
+      607,
+      370
+    ],
+    "frames": 11711,
+    "apuWrites": 81348,
+    "maximumTickError": 2,
+    "maximumReleaseTickError": 3,
+    "maximumFrameStep": 3,
+    "releaseBound": 6,
+    "heldControlFrameChecks": 16164,
+    "repeatAttacksVerified": true
+  },
+  "privateMidiIncluded": false
+}

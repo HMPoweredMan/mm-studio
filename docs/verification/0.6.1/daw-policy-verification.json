@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "sourceMidiUnchanged": true,
+  "method": "Unmodified private real-world MIDI; same file tested under four export policies. File/composition excluded from repository.",
+  "results": [
+    {
+      "policy": "strict",
+      "passed": true,
+      "exportAccepted": false,
+      "distinctErrors": 10,
+      "errorOccurrences": 134,
+      "songBytes": 0
+    },
+    {
+      "policy": "exclude-unused",
+      "passed": true,
+      "exportAccepted": false,
+      "distinctErrors": 9,
+      "errorOccurrences": 47,
+      "songBytes": 0
+    },
+    {
+      "policy": "retrigger",
+      "passed": true,
+      "exportAccepted": false,
+      "distinctErrors": 1,
+      "errorOccurrences": 32,
+      "songBytes": 0
+    },
+    {
+      "policy": "selected-range",
+      "passed": true,
+      "exportAccepted": true,
+      "distinctErrors": 0,
+      "errorOccurrences": 0,
+      "songBytes": 3297
+    }
+  ]
+}

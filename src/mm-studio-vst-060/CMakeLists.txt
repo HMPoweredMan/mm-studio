@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(mm5_studio VERSION 0.6.0 LANGUAGES CXX RC)
+project(mm5_studio VERSION 0.6.1 LANGUAGES CXX RC)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 get_filename_component(KSA_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../.." ABSOLUTE)

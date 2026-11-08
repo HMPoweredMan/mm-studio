@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "existingProject": "0.5.1 Dark Man example",
+  "parameters": 2410,
+  "processorUID": "02F03462C9574B5FA826AD5B44BE1331",
+  "resolvedBundle": "MM Studio.vst3",
+  "pluginLoaded": true,
+  "dialogTests": [
+    {
+      "target": "omni",
+      "validated": true,
+      "savedFiles": [
+        "nsf",
+        "bin",
+        "asm",
+        "driver.bin",
+        "json"
+      ],
+      "nativeSongMatchesFinalFixture": true,
+      "scope": "Native dialog before final time-zero NSF INIT refinement; final NSF wrapper independently qualified on all 24 fixtures."
+    },
+    {
+      "target": "mm5",
+      "validated": true,
+      "savedFiles": [
+        "nsf",
+        "bin",
+        "asm",
+        "driver.bin",
+        "json"
+      ],
+      "nativeSongMatchesFinalFixture": true,
+      "scope": "Native dialog before final time-zero NSF INIT refinement; final NSF wrapper independently qualified on all 24 fixtures."
+    }
+  ]
+}

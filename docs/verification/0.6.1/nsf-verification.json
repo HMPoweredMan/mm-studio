@@ -1,0 +1,437 @@
+{
+  "method": "Exported NSF run independently as a synthetic mapper-0 CPU image; INIT and PLAY addresses from its header, genuine driver tempo. All first-pass attack instruments and pitched targets compared against compiler model. Release error is bounded by two actual native frame steps: note scheduling and gate counter quantization. Held controls and a repeated loop are checked; this does not certify analogue waveforms.",
+  "results": [
+    {
+      "track": "Dark Man demo",
+      "passed": true,
+      "attackCounts": [
+        384,
+        179,
+        314,
+        148
+      ],
+      "frames": 6722,
+      "apuWrites": 52266,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 8868,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Dust Man demo",
+      "passed": true,
+      "attackCounts": [
+        568,
+        366,
+        150,
+        186
+      ],
+      "frames": 5280,
+      "apuWrites": 40606,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 10591,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Flame Man demo",
+      "passed": true,
+      "attackCounts": [
+        407,
+        340,
+        395,
+        231
+      ],
+      "frames": 7424,
+      "apuWrites": 53490,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 2,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 11463,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Gravity Man demo",
+      "passed": true,
+      "attackCounts": [
+        669,
+        336,
+        460,
+        254
+      ],
+      "frames": 9072,
+      "apuWrites": 70358,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 2,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 13228,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Knight Man demo",
+      "passed": true,
+      "attackCounts": [
+        576,
+        223,
+        175,
+        149
+      ],
+      "frames": 7368,
+      "apuWrites": 55600,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 10727,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Mega Man 3 Intro demo",
+      "passed": true,
+      "attackCounts": [
+        235,
+        250,
+        145,
+        239
+      ],
+      "frames": 4637,
+      "apuWrites": 34443,
+      "maximumTickError": 2,
+      "maximumReleaseTickError": 3,
+      "maximumFrameStep": 3,
+      "releaseBound": 6,
+      "heldControlFrameChecks": 7468,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM3 - Mega Man 3 Intro demo",
+      "passed": true,
+      "attackCounts": [
+        235,
+        250,
+        145,
+        239
+      ],
+      "frames": 4637,
+      "apuWrites": 34443,
+      "maximumTickError": 2,
+      "maximumReleaseTickError": 3,
+      "maximumFrameStep": 3,
+      "releaseBound": 6,
+      "heldControlFrameChecks": 7468,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM3 - Snake Man demo",
+      "passed": true,
+      "attackCounts": [
+        300,
+        205,
+        144,
+        170
+      ],
+      "frames": 4800,
+      "apuWrites": 36014,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 6512,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM3 - Spark Man demo",
+      "passed": true,
+      "attackCounts": [
+        300,
+        282,
+        207,
+        162
+      ],
+      "frames": 3840,
+      "apuWrites": 30557,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 6955,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM4 - Dust Man demo",
+      "passed": true,
+      "attackCounts": [
+        568,
+        366,
+        150,
+        186
+      ],
+      "frames": 5280,
+      "apuWrites": 40606,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 10591,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM4 - Skull Man demo",
+      "passed": true,
+      "attackCounts": [
+        226,
+        324,
+        118,
+        126
+      ],
+      "frames": 5604,
+      "apuWrites": 40786,
+      "maximumTickError": 2,
+      "maximumReleaseTickError": 4,
+      "maximumFrameStep": 3,
+      "releaseBound": 6,
+      "heldControlFrameChecks": 5960,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM5 - Dark Man demo",
+      "passed": true,
+      "attackCounts": [
+        384,
+        179,
+        314,
+        148
+      ],
+      "frames": 6722,
+      "apuWrites": 52266,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 8868,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM5 - Gravity Man demo",
+      "passed": true,
+      "attackCounts": [
+        669,
+        336,
+        460,
+        254
+      ],
+      "frames": 9072,
+      "apuWrites": 70358,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 2,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 13228,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM5 - Napalm Man demo",
+      "passed": true,
+      "attackCounts": [
+        413,
+        226,
+        233,
+        199
+      ],
+      "frames": 6895,
+      "apuWrites": 52994,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 12834,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM5 - Wave Man demo",
+      "passed": true,
+      "attackCounts": [
+        828,
+        390,
+        398,
+        193
+      ],
+      "frames": 8616,
+      "apuWrites": 68736,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 17106,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM6 - Flame Man demo",
+      "passed": true,
+      "attackCounts": [
+        407,
+        340,
+        395,
+        231
+      ],
+      "frames": 7424,
+      "apuWrites": 53490,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 2,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 11463,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM6 - Knight Man demo",
+      "passed": true,
+      "attackCounts": [
+        576,
+        223,
+        175,
+        149
+      ],
+      "frames": 7368,
+      "apuWrites": 55600,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 10727,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "MM6 - Tomahawk Man demo",
+      "passed": true,
+      "attackCounts": [
+        402,
+        187,
+        180,
+        158
+      ],
+      "frames": 6528,
+      "apuWrites": 49745,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 9404,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Napalm Man demo",
+      "passed": true,
+      "attackCounts": [
+        413,
+        226,
+        233,
+        199
+      ],
+      "frames": 6895,
+      "apuWrites": 52994,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 12834,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Skull Man demo",
+      "passed": true,
+      "attackCounts": [
+        226,
+        324,
+        118,
+        126
+      ],
+      "frames": 5604,
+      "apuWrites": 40786,
+      "maximumTickError": 2,
+      "maximumReleaseTickError": 4,
+      "maximumFrameStep": 3,
+      "releaseBound": 6,
+      "heldControlFrameChecks": 5960,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Snake Man demo",
+      "passed": true,
+      "attackCounts": [
+        300,
+        205,
+        144,
+        170
+      ],
+      "frames": 4800,
+      "apuWrites": 36014,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 6512,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Spark Man demo",
+      "passed": true,
+      "attackCounts": [
+        300,
+        282,
+        207,
+        162
+      ],
+      "frames": 3840,
+      "apuWrites": 30557,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 6955,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Tomahawk Man demo",
+      "passed": true,
+      "attackCounts": [
+        402,
+        187,
+        180,
+        158
+      ],
+      "frames": 6528,
+      "apuWrites": 49745,
+      "maximumTickError": 0,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 9404,
+      "repeatAttacksVerified": true
+    },
+    {
+      "track": "Wave Man demo",
+      "passed": true,
+      "attackCounts": [
+        828,
+        390,
+        398,
+        193
+      ],
+      "frames": 8616,
+      "apuWrites": 68736,
+      "maximumTickError": 1,
+      "maximumReleaseTickError": 1,
+      "maximumFrameStep": 2,
+      "releaseBound": 4,
+      "heldControlFrameChecks": 17106,
+      "repeatAttacksVerified": true
+    }
+  ]
+}

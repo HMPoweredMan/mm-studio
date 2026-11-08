@@ -1,4 +1,4 @@
-# Build MM Studio 0.6.0
+# Build MM Studio 0.6.1
 
 Windows x64 only. Install Git, CMake 3.25+, Visual Studio 2019 or 2022 with Desktop development with C++, and a Windows SDK.
 

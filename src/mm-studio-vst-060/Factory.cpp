@@ -3,6 +3,6 @@
 #include "public.sdk/source/main/pluginfactory.h"
 using namespace Steinberg;using namespace Steinberg::Vst;
 BEGIN_FACTORY_DEF("KSA Tools","","")
-DEF_CLASS2(INLINE_UID_FROM_FUID(mm5studio::kProcessorUID),PClassInfo::kManyInstances,kVstAudioEffectClass,"MM Studio",Vst::kDistributable,"Instrument|Synth|Drum","0.6.0",kVstVersionString,mm5studio::Processor::createInstance)
-DEF_CLASS2(INLINE_UID_FROM_FUID(mm5studio::kControllerUID),PClassInfo::kManyInstances,kVstComponentControllerClass,"MM Studio Controller",0,"","0.6.0",kVstVersionString,mm5studio::Controller::createInstance)
+DEF_CLASS2(INLINE_UID_FROM_FUID(mm5studio::kProcessorUID),PClassInfo::kManyInstances,kVstAudioEffectClass,"MM Studio",Vst::kDistributable,"Instrument|Synth|Drum","0.6.1",kVstVersionString,mm5studio::Processor::createInstance)
+DEF_CLASS2(INLINE_UID_FROM_FUID(mm5studio::kControllerUID),PClassInfo::kManyInstances,kVstComponentControllerClass,"MM Studio Controller",0,"","0.6.1",kVstVersionString,mm5studio::Controller::createInstance)
 END_FACTORY

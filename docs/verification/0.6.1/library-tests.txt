@@ -1,0 +1,1 @@
+PASS: 3591 recipes, 7225 cues, 3576 audio probes with signal, 36 phrases, 125 detuned recipes; live MIDI snapshot/patch unchanged; preview stop and invalid indices pass

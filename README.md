@@ -12,7 +12,7 @@ A Windows VST3 instrument for composing and performing with the Mega Man 3, 4, 5
 - Program/CC output for recording settings, plus draggable settings and drum articulations.
 - MIDI-to-NSF and native music-data export, with Mega Man 3/4/5/6 and Omni targets.
 
-Current release: **0.6.0**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
+Current release: **0.6.1**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
 
 ## Install
 
@@ -30,7 +30,7 @@ See [examples](examples/README.md) for twelve editable MIDI files and ready-to-p
 
 Hardware voices are monophonic in strict mode. Toms share the triangle voice with bass. Native-bank program changes update sounding notes through the driver. Some percussion names are provisional. See [0.5.1 notes and validation](docs/MM_STUDIO_051.md).
 
-Use **NSF / data...** in the plugin to validate an exported MIDI file and save a standalone NSF or native song data. Choose a game for its original driver/instruments, or Omni for the combined MM Studio instrument table. See [native export](docs/NATIVE_EXPORT.md) and [0.6.0 validation](docs/MM_STUDIO_060.md).
+Use **NSF / data...** in the plugin to validate an exported MIDI file and save a standalone NSF or native song data. Choose a game for its original driver/instruments, or Omni for the combined MM Studio instrument table. See [native export](docs/NATIVE_EXPORT.md) and [0.6.1 notes](docs/MM_STUDIO_061.md) and [0.6.0 validation](docs/MM_STUDIO_060.md).
 
 This public project contains the instrument, integrated exporter, presets, examples and build sources. The private game-port integration tools remain outside its scope.
 

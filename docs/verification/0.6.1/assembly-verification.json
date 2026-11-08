@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "method": "ca65 and ld65 at $A000; linked bytes equal exported song.bin",
+  "results": [
+    {
+      "track": "Dark Man demo",
+      "passed": true,
+      "bytes": 2228
+    },
+    {
+      "track": "Dust Man demo",
+      "passed": true,
+      "bytes": 1891
+    },
+    {
+      "track": "Flame Man demo",
+      "passed": true,
+      "bytes": 3020
+    },
+    {
+      "track": "Gravity Man demo",
+      "passed": true,
+      "bytes": 3638
+    },
+    {
+      "track": "Knight Man demo",
+      "passed": true,
+      "bytes": 2199
+    },
+    {
+      "track": "Mega Man 3 Intro demo",
+      "passed": true,
+      "bytes": 1781
+    },
+    {
+      "track": "MM3 - Mega Man 3 Intro demo",
+      "passed": true,
+      "bytes": 1781
+    },
+    {
+      "track": "MM3 - Snake Man demo",
+      "passed": true,
+      "bytes": 1354
+    },
+    {
+      "track": "MM3 - Spark Man demo",
+      "passed": true,
+      "bytes": 1494
+    },
+    {
+      "track": "MM4 - Dust Man demo",
+      "passed": true,
+      "bytes": 1891
+    },
+    {
+      "track": "MM4 - Skull Man demo",
+      "passed": true,
+      "bytes": 1373
+    },
+    {
+      "track": "MM5 - Dark Man demo",
+      "passed": true,
+      "bytes": 2228
+    },
+    {
+      "track": "MM5 - Gravity Man demo",
+      "passed": true,
+      "bytes": 3638
+    },
+    {
+      "track": "MM5 - Napalm Man demo",
+      "passed": true,
+      "bytes": 2457
+    },
+    {
+      "track": "MM5 - Wave Man demo",
+      "passed": true,
+      "bytes": 3269
+    },
+    {
+      "track": "MM6 - Flame Man demo",
+      "passed": true,
+      "bytes": 3020
+    },
+    {
+      "track": "MM6 - Knight Man demo",
+      "passed": true,
+      "bytes": 2199
+    },
+    {
+      "track": "MM6 - Tomahawk Man demo",
+      "passed": true,
+      "bytes": 2092
+    },
+    {
+      "track": "Napalm Man demo",
+      "passed": true,
+      "bytes": 2457
+    },
+    {
+      "track": "Skull Man demo",
+      "passed": true,
+      "bytes": 1373
+    },
+    {
+      "track": "Snake Man demo",
+      "passed": true,
+      "bytes": 1354
+    },
+    {
+      "track": "Spark Man demo",
+      "passed": true,
+      "bytes": 1494
+    },
+    {
+      "track": "Tomahawk Man demo",
+      "passed": true,
+      "bytes": 2092
+    },
+    {
+      "track": "Wave Man demo",
+      "passed": true,
+      "bytes": 3269
+    }
+  ]
+}
