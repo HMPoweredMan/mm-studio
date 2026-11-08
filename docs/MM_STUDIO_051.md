@@ -9,3 +9,9 @@ Validation: standalone Windows build, native/processor/settings/browser tests an
 Each example was rendered, saved and reopened in REAPER. Saved channel events are checked against the supplied MIDI. Existing 0.5.0 projects retain their old plugin identity; install 0.5.1 and replace the old instance explicitly when updating them. Historical builds and qualification remain preserved.
 
 Other limitations remain: provisional percussion role names, MM4 Epilogue prefix coverage, and host/audio-device latency. Search/filter, state-aware loop extraction and normalized A/B comparison remain future improvements.
+
+## Expanded example collection
+
+Seven additional MIDI/REAPER examples: Mega Man 3 Intro, Spark Man, Dust Man, Napalm Man, Wave Man, Flame Man and Tomahawk Man. The plugin binary is unchanged. Each transcription is decoded and checked against an original-ROM CPU trace, then rendered, saved and reopened in REAPER. Every saved project channel event is compared with its MIDI file. See verification/0.5.1/expanded-example-host-verification.json and each example validation.json.
+
+The loop trace compares two consecutive cycles of attacks, gates, held target-pitch changes, source tempo and per-voice instrument/duty/level/fine-tune/glide state. It retains the one-time prefix through any first-pass differences and chooses a boundary without held notes. Napalm Man needs a shifted repeat entry after first-pass state differences. These checks cover the recorded sequencer controls, not a proof of every internal CPU/APU state or analogue waveform. Existing Skull Man remains the documented first-pass exception.

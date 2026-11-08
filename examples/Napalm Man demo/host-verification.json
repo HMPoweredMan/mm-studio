@@ -1,0 +1,17 @@
+{
+  "track": "Napalm Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1071,
+  "midiChannelEvents": 2944,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 69.763,
+  "loopStartSeconds": 24.808648999999946,
+  "loopEndSeconds": 69.76391899999945,
+  "peak": 0.29034423828125,
+  "rms": 0.0606403533437189,
+  "midiSha256": "7a858821fd2f59b64c67935aae9a117e6904c04a23517df703f5cb38fc272e0c",
+  "projectSha256": "68562fc97e7603782e107de659e5e4b42cd42feaf2d658204732a1d6fb19aba5"
+}

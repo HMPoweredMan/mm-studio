@@ -1,0 +1,17 @@
+{
+  "track": "Mega Man 3 Intro",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 869,
+  "midiChannelEvents": 2547,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 53.681,
+  "loopStartSeconds": 30.230048249999864,
+  "loopEndSeconds": 53.68105624999858,
+  "peak": 0.36956787109375,
+  "rms": 0.06751313761152425,
+  "midiSha256": "67ec93ac88bb2d502a990d299859eb6a8860a5cb23f6a505eee1b9ed7b579098",
+  "projectSha256": "11aa8aae559b90cbd188ca59c74bcb2f09592aedd34436fe118927048d480b86"
+}

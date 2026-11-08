@@ -1,0 +1,17 @@
+{
+  "track": "Flame Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1373,
+  "midiChannelEvents": 3866,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 76.748,
+  "loopStartSeconds": 30.013797999999888,
+  "loopEndSeconds": 76.74827800000047,
+  "peak": 0.361572265625,
+  "rms": 0.06491735320842641,
+  "midiSha256": "68511bca506710633c86f349b0c5601f297e4a6b40df8eb705bd39482570bdf5",
+  "projectSha256": "155ec4d4404b7ade9da58bd44ac18486d02071c07de8fabab5a51c4348e99c7a"
+}

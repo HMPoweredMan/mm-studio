@@ -1,0 +1,17 @@
+{
+  "track": "Spark Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 951,
+  "midiChannelEvents": 2699,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 38.336,
+  "loopStartSeconds": 12.778944000000058,
+  "loopEndSeconds": 38.33683199999999,
+  "peak": 0.35125732421875,
+  "rms": 0.062402882923327824,
+  "midiSha256": "215eeee13976f5e98e99cabd0e87c393b87f53a253fd2cb33e3327193daf3032",
+  "projectSha256": "5c4dd8260f8d41d38b47cd91c4f1cc8b55283741c0b3e59e56cfb58cbcbcc750"
+}

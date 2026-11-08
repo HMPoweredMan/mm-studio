@@ -1,0 +1,17 @@
+{
+  "track": "Wave Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1809,
+  "midiChannelEvents": 4739,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 93.019,
+  "loopStartSeconds": 42.69015000000029,
+  "loopEndSeconds": 93.01959000000087,
+  "peak": 0.31036376953125,
+  "rms": 0.06440484249249001,
+  "midiSha256": "f23e39f57569bf0523a6b7474934915ab757495c728651e543966ff369ae691a",
+  "projectSha256": "c631edf12706d88d18943153a2bfe71c75ec576876402c535d6f92e0b3bc82e5"
+}

@@ -1,0 +1,84 @@
+{
+  "notes": 927,
+  "channels": {
+    "1": 158,
+    "2": 180,
+    "3": 187,
+    "10": 402
+  },
+  "tempoChanges": 1,
+  "loopStartTick": 768,
+  "loopEndTick": 6912,
+  "loopStartSeconds": 6.3894720000000005,
+  "durationSeconds": 57.505248,
+  "sourceLoopsVerified": 2,
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    18,
+    21,
+    40
+  ],
+  "bank": [
+    126,
+    0
+  ],
+  "validation": "Saved MIDI independently decoded against original-ROM trace: all note attacks, pitches, gates, programs, duties, source levels and glide settings; all tempo changes and loop markers. Loop attacks and per-tick controls recur in two native executions.",
+  "heldProgramChanges": [
+    {
+      "tick": 48,
+      "voice": 1,
+      "program": 1
+    },
+    {
+      "tick": 1560,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 2208,
+      "voice": 2,
+      "program": 3
+    },
+    {
+      "tick": 2208,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 3096,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 3696,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 4128,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 6816,
+      "voice": 2,
+      "program": 3
+    },
+    {
+      "tick": 6816,
+      "voice": 3,
+      "program": 3
+    }
+  ],
+  "heldProgramBehavior": "MM Studio 0.5.1 applies native instrument changes to sounding notes without a new attack.",
+  "game": 6,
+  "sourceSongId": 6,
+  "sourceRomSha256": "6791433fd1c639d3f281522d7ab7d1e80bd01f1cdf99bad42cdf9d25b730f6d8",
+  "sequencerIntroTicks": 768,
+  "lastFirstPassDifferenceTick": 767,
+  "loopPhaseOffsetTicks": 0,
+  "loopQualification": "Original CPU trace: two consecutive cycles match note attacks, gates, target-pitch changes, instrument/duty/level/fine-tune/glide state and tempo. Boundary avoids held notes. The opening retains any first-pass variation."
+}

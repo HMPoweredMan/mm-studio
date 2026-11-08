@@ -1,0 +1,17 @@
+{
+  "track": "Dust Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1270,
+  "midiChannelEvents": 3364,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 60.699,
+  "loopStartSeconds": 33.54472800000004,
+  "loopEndSeconds": 60.69998400000038,
+  "peak": 0.354095458984375,
+  "rms": 0.06302318585010809,
+  "midiSha256": "a9d2f0ebedd0c5ea2fdc9db8e1777324e7b4707b6d6d012419dfec85a0ba724b",
+  "projectSha256": "4386a02a932e150fe1cc2acc41cd3a33c1051a638796f1d3e7a55a3e8456cab7"
+}

@@ -1,0 +1,3092 @@
+<REAPER_PROJECT 0.1 "7.82/win64" 1794150340 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48 0
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 0
+  ZOOM 100 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN "Spark Man - MM Studio"
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 38.336 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 16
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 48000 1 0
+  <RENDER_CFG
+    ZXZhdyAAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 150.24715657256186 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 12.778944 38.336832
+  SELECTION2 12.778944 38.336832
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_TRACKID {7817F09B-98EC-4C88-8DD2-821891CFF798}
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {86B3A25F-AA28-4D46-90B2-EC19E536C008}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {7C70390E-F4BB-4025-91CF-C66B9CD955E8}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+    PT 0.000000000000 150.2471565726 1
+  >
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1 0
+  RULERLANE 2 8 "" 0 -1 0
+  MARKER 1 12.778944 LOOP_START 0 0 1 R {C7242285-2897-44F9-8AC0-5B4C85351F82} 0 2
+  MARKER 2 38.336832 LOOP_END 0 0 1 R {934BAF26-B345-489D-97C4-B37CE91C2F00} 0 2
+  <PROJBAY
+  >
+  <TRACK {9CD890BF-7C28-4D0E-A49B-51B0254FB575}
+    NAME "MM Studio - Spark Man"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9CD890BF-7C28-4D0E-A49B-51B0254FB575}
+    PERF 2
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST3i: MM Studio 0.5.1 (KSA Tools)" "MM Studio 0.5.1.vst3" 0 "" 139268667{02F03462C9574B5FA826AD5B44BE1331} ""
+        OxJNCO5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABIBQAAAQAAAP//AAA=
+        IAUAAAEAAABUUzVNDAAAAAAAAD8AAAAAAAAAAMjj8T6FQqE9AAAAAAAAAACFQqE9AAAAAAAAAAAEAoE8AAAAAAAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA
+        8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAGg8E9AAAAAAAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA
+        8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAA8Pd7PwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAD8AAgA/AAIAPwACAD8AAgA/AAIAPwACAD8AAgA/
+        AAIAPwACAD8AAgA/AAIAPwACAD8AAgA/AAIAPwACAD+rqio/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIBPwQCAT8EAgE/BAIBPwQCAT8EAgE/AAAAAAQCAT8EAgE/
+        BAIBPwQCAT8EAgE/BAIBPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/
+        AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAKAUPwDAFD8A4BQ/AAAVPwAgFT8AQBU/AGAVPwCAFT8AoBU/AMAVPwDgFT8AABY/ACAWPwBAFj8AYBY/
+        AIAWPwCgFj8AwBY/AOAWPwAAFz8AIBc/AEAXPwBgFz8AgBc/AKAXPwDAFz8A4Bc/AAAYPwAgGD8AQBg/AGAYPwCAGD8AoBg/AMAYPwDgGD8AABk/ACAZPwBAGT8AYBk/
+        AIAZPwCgGT8AwBk/AOAZPwAAGj8AIBo/AEAaPwBgGj8AgBo/AKAaPwDAGj8A4Bo/AAAbPwAgGz8AQBs/AGAbPwCAGz8AoBs/AMAbPwDgGz8AABw/ACAcPwBAHD8AYBw/
+        AIAcPwCgHD8AwBw/AOAcPwAAHT8AIB0/AEAdPwBgHT8AAAAAAAAAAAAAAAAAAAAAAAAAAAQCAT8EAgE/BAIBPwQCAT8EAgE/BAIBPwAAAAAEAgE/BAIBPwQCAT8EAgE/
+        BAIBPwQCAT/g73c/AAAAAODvdz8AAAAA4O93PwAAAADw93s/AAAAAPD3ez8AAAAA8Pd7PwAAAADw93s/AAAAAPD3ez8AAAAA8Pd7PwAAAADg73c/AAAAAPD3ez8AAAAA
+        8Pd7PwAAAADw93s/AAAAAPD3ez8AAAAA8Pd7PwAAAADw93s/AAAAAP//////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////GAAAAAAAAABVQjVNAQAAAKuqKj8AAAAA
+        AAAAAAAAAAA=
+        AAAAAAAA
+      >
+      MULTIFXLINK 0
+      FLOATPOS 0 0 0 0
+      FXID {244A599A-B736-4C43-B2A1-D3E155C8F03C}
+      WAK 0 0
+    >
+  >
+  <TRACK {C0F09A36-4A4F-45BC-A897-3F873E429348}
+    NAME "Pulse 1 - MIDI 1"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C0F09A36-4A4F-45BC-A897-3F873E429348}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 38.336832
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {98C79D5F-B5BA-447D-A659-2C6BE960793D}
+      IID 49
+      NAME ""
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {233BFC28-C542-4CC7-923E-1FAC2AAFE766}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {12BED6C5-5284-4EAD-B1B7-8964B8AC89C1}
+        E 0 b0 00 7b
+        E 0 b0 20 00
+        E 0 c0 0b 00
+        E 0 b0 15 40
+        E 0 b0 07 7f
+        E 0 b0 0b 7f
+        E 0 b0 44 00
+        E 0 b0 05 00
+        E 0 b0 41 00
+        E 0 e0 00 40
+        E 0 e0 00 40
+        E 0 b0 14 40
+        E 0 90 3e 5d
+        E 1120 80 3e 00
+        E 320 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 45 5d
+        E 560 80 45 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 1120 80 43 00
+        E 320 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 300 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 60 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 300 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 3c 5d
+        E 180 80 3c 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 1120 80 43 00
+        E 320 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 60 e0 00 40
+        E 0 90 45 5d
+        E 180 80 45 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 45 5d
+        E 560 80 45 00
+        E 160 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 1120 80 48 00
+        E 320 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 60 e0 00 40
+        E 0 90 4a 5d
+        E 180 80 4a 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 45 5d
+        E 180 80 45 00
+        E 300 e0 00 40
+        E 0 90 3e 5d
+        E 1120 80 3e 00
+        E 320 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 45 5d
+        E 560 80 45 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 1120 80 43 00
+        E 320 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 300 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 60 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 40 5d
+        E 180 80 40 00
+        E 300 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 3c 5d
+        E 180 80 3c 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 1120 80 43 00
+        E 320 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 60 e0 00 40
+        E 0 90 45 5d
+        E 180 80 45 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 45 5d
+        E 560 80 45 00
+        E 160 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 1120 80 48 00
+        E 320 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 60 e0 00 40
+        E 0 90 4a 5d
+        E 180 80 4a 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 45 5d
+        E 180 80 45 00
+        E 300 b0 00 7b
+        E 0 b0 20 00
+        E 0 c0 0a 00
+        E 0 b0 15 40
+        E 0 e0 00 40
+        E 0 b0 14 60
+        E 0 b0 07 7f
+        E 0 b0 44 00
+        E 0 e0 00 40
+        E 0 b0 05 00
+        E 0 b0 41 00
+        E 0 b0 0b 7f
+        E 0 90 43 5d
+        E 740 80 43 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 560 80 43 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 740 80 43 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 560 80 43 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 2000 80 48 00
+        E 160 e0 00 40
+        E 0 90 4b 5d
+        E 560 80 4b 00
+        E 160 e0 00 40
+        E 0 90 4c 5d
+        E 560 80 4c 00
+        E 160 e0 00 40
+        E 0 90 4d 5d
+        E 180 80 4d 00
+        E 300 e0 00 40
+        E 0 90 4e 5d
+        E 560 80 4e 00
+        E 160 e0 00 40
+        E 0 90 4f 5d
+        E 560 80 4f 00
+        E 160 e0 00 40
+        E 0 90 50 5d
+        E 180 80 50 00
+        E 300 e0 00 40
+        E 0 90 43 5d
+        E 740 80 43 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 560 80 43 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 3e 5d
+        E 180 80 3e 00
+        E 60 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 740 80 43 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 560 80 43 00
+        E 160 e0 00 40
+        E 0 90 41 5d
+        E 180 80 41 00
+        E 60 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 43 5d
+        E 180 80 43 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 180 80 48 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 48 5d
+        E 2000 80 48 00
+        E 160 e0 00 40
+        E 0 90 4b 5d
+        E 560 80 4b 00
+        E 160 e0 00 40
+        E 0 90 4c 5d
+        E 560 80 4c 00
+        E 160 e0 00 40
+        E 0 90 4d 5d
+        E 180 80 4d 00
+        E 300 e0 00 40
+        E 0 90 4e 5d
+        E 560 80 4e 00
+        E 160 e0 00 40
+        E 0 90 4f 5d
+        E 560 80 4f 00
+        E 160 e0 00 40
+        E 0 90 50 5d
+        E 180 80 50 00
+        E 300 c0 1d 00
+        E 0 e0 00 40
+        E 0 b0 14 40
+        E 0 90 4f 5d
+        E 460 80 4f 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 220 80 4d 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 460 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4a 5d
+        E 220 80 4a 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 220 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4a 5d
+        E 220 80 4a 00
+        E 260 e0 00 40
+        E 0 90 48 5d
+        E 1180 80 48 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 460 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4b 5d
+        E 220 80 4b 00
+        E 260 e0 00 40
+        E 0 90 4a 5d
+        E 460 80 4a 00
+        E 20 e0 00 40
+        E 0 90 48 5d
+        E 220 80 48 00
+        E 260 e0 00 40
+        E 0 90 48 5d
+        E 220 80 48 00
+        E 20 e0 00 40
+        E 0 90 47 5d
+        E 220 80 47 00
+        E 260 e0 00 40
+        E 0 90 4a 5d
+        E 700 80 4a 00
+        E 20 e0 00 40
+        E 0 90 43 5d
+        E 460 80 43 00
+        E 20 e0 00 40
+        E 0 90 4b 5d
+        E 700 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 700 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 220 80 4f 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 700 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 700 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 220 80 4f 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 700 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 700 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 460 80 4f 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 220 80 4d 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 220 80 4b 00
+        E 260 e0 00 40
+        E 0 90 4a 5d
+        E 220 80 4a 00
+        E 20 e0 00 40
+        E 0 90 47 5d
+        E 700 80 47 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 460 80 4f 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 220 80 4d 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 460 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4a 5d
+        E 220 80 4a 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 220 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4a 5d
+        E 220 80 4a 00
+        E 260 e0 00 40
+        E 0 90 48 5d
+        E 1180 80 48 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 460 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4b 5d
+        E 220 80 4b 00
+        E 260 e0 00 40
+        E 0 90 4a 5d
+        E 460 80 4a 00
+        E 20 e0 00 40
+        E 0 90 48 5d
+        E 220 80 48 00
+        E 260 e0 00 40
+        E 0 90 48 5d
+        E 220 80 48 00
+        E 20 e0 00 40
+        E 0 90 47 5d
+        E 220 80 47 00
+        E 260 e0 00 40
+        E 0 90 4a 5d
+        E 700 80 4a 00
+        E 20 e0 00 40
+        E 0 90 43 5d
+        E 460 80 43 00
+        E 20 e0 00 40
+        E 0 90 4b 5d
+        E 700 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 700 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 220 80 4f 00
+        E 260 e0 00 40
+        E 0 90 4b 5d
+        E 700 80 4b 00
+        E 20 e0 00 40
+        E 0 90 4d 5d
+        E 700 80 4d 00
+        E 20 e0 00 40
+        E 0 90 4f 5d
+        E 220 80 4f 00
+        E 260 c0 0a 00
+        E 0 e0 00 40
+        E 0 b0 14 60
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 300 e0 00 40
+        E 0 90 46 5d
+        E 180 80 46 00
+        E 60 e0 00 40
+        E 0 90 46 5d
+        E 740 80 46 00
+        E 220 e0 00 40
+        E 0 90 47 5d
+        E 740 80 47 00
+        E 220 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {4154BC4C-7F65-45FD-A13C-E2AA5061FC94}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 48
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+      >
+    >
+  >
+  <TRACK {16B03F1A-C73C-4CA0-A8B5-9CC6F2EF9FAE}
+    NAME "Pulse 2 - MIDI 2"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {16B03F1A-C73C-4CA0-A8B5-9CC6F2EF9FAE}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 38.336832
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0445A72C-CE92-4F9B-993E-4335112B9B44}
+      IID 50
+      NAME ""
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {79C277AA-B042-462C-84FA-C7A227A9F83B}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {78B1F4B1-E362-482D-B484-ACEFD3506433}
+        E 0 b1 00 7b
+        E 0 b1 20 00
+        E 0 c1 0d 00
+        E 0 b1 15 40
+        E 0 b1 07 7f
+        E 0 b1 0b 7f
+        E 0 b1 44 00
+        E 0 b1 05 00
+        E 0 b1 41 00
+        E 0 e1 00 40
+        E 0 e1 00 40
+        E 0 b1 14 20
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 e1 00 40
+        E 0 91 45 66
+        E 220 81 45 00
+        E 20 e1 00 40
+        E 0 91 46 66
+        E 220 81 46 00
+        E 20 e1 00 40
+        E 0 91 4a 66
+        E 220 81 4a 00
+        E 20 e1 00 40
+        E 0 91 4f 66
+        E 220 81 4f 00
+        E 20 e1 00 40
+        E 0 91 51 66
+        E 220 81 51 00
+        E 20 e1 00 40
+        E 0 91 52 66
+        E 220 81 52 00
+        E 20 e1 00 40
+        E 0 91 4a 66
+        E 220 81 4a 00
+        E 20 b1 00 7b
+        E 0 b1 20 00
+        E 0 c1 0f 00
+        E 0 b1 15 40
+        E 0 e1 00 40
+        E 0 b1 14 00
+        E 0 b1 07 7f
+        E 0 b1 44 00
+        E 0 e1 00 40
+        E 0 b1 05 00
+        E 0 b1 41 00
+        E 0 b1 0b 7f
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 460 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 460 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 c1 0a 00
+        E 0 e1 00 40
+        E 0 91 46 55
+        E 700 81 46 00
+        E 20 e1 00 40
+        E 0 91 47 55
+        E 700 81 47 00
+        E 20 e1 00 40
+        E 0 91 48 55
+        E 220 81 48 00
+        E 260 e1 00 40
+        E 0 91 49 55
+        E 700 81 49 00
+        E 20 e1 00 40
+        E 0 91 4a 55
+        E 700 81 4a 00
+        E 20 e1 00 40
+        E 0 91 4b 55
+        E 220 81 4b 00
+        E 260 c1 0f 00
+        E 0 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 460 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 460 81 43 00
+        E 260 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 700 81 43 00
+        E 20 e1 00 40
+        E 0 91 3e 66
+        E 220 81 3e 00
+        E 260 e1 00 40
+        E 0 91 41 66
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 260 e1 00 40
+        E 0 91 43 66
+        E 220 81 43 00
+        E 20 c1 0a 00
+        E 0 e1 00 40
+        E 0 91 46 55
+        E 700 81 46 00
+        E 20 e1 00 40
+        E 0 91 47 55
+        E 700 81 47 00
+        E 20 e1 00 40
+        E 0 91 48 55
+        E 220 81 48 00
+        E 260 e1 00 40
+        E 0 91 49 55
+        E 700 81 49 00
+        E 20 e1 00 40
+        E 0 91 4a 55
+        E 700 81 4a 00
+        E 20 e1 00 40
+        E 0 91 4b 55
+        E 220 81 4b 00
+        E 260 c1 10 00
+        E 0 e1 00 40
+        E 0 b1 14 20
+        E 0 91 48 33
+        E 1920 c1 05 00
+        E 1900 81 48 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 4b 33
+        E 1920 c1 05 00
+        E 940 81 4b 00
+        E 20 e1 00 40
+        E 0 91 4a 33
+        E 940 81 4a 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 43 33
+        E 1920 c1 05 00
+        E 1900 81 43 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 4d 33
+        E 1920 c1 05 00
+        E 940 81 4d 00
+        E 20 e1 00 40
+        E 0 91 4b 33
+        E 940 81 4b 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 48 33
+        E 1920 c1 05 00
+        E 1900 81 48 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 4b 33
+        E 1920 c1 05 00
+        E 940 81 4b 00
+        E 20 e1 00 40
+        E 0 91 4a 33
+        E 940 81 4a 00
+        E 20 c1 10 00
+        E 0 e1 00 40
+        E 0 91 43 33
+        E 1920 c1 05 00
+        E 1900 81 43 00
+        E 20 c1 0a 00
+        E 0 e1 00 40
+        E 0 91 41 4c
+        E 220 81 41 00
+        E 260 e1 00 40
+        E 0 91 41 4c
+        E 220 81 41 00
+        E 260 e1 00 40
+        E 0 91 41 4c
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 41 4c
+        E 220 81 41 00
+        E 260 e1 00 40
+        E 0 91 41 4c
+        E 220 81 41 00
+        E 20 e1 00 40
+        E 0 91 41 4c
+        E 940 81 41 00
+        E 20 e1 00 40
+        E 0 91 42 4c
+        E 940 81 42 00
+        E 20 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {509FC82E-C61D-49B9-9ED3-D64D48A631A3}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 49
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+      >
+    >
+  >
+  <TRACK {95289D77-75D2-4FD1-B535-63F54D95F209}
+    NAME "Triangle - MIDI 3"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {95289D77-75D2-4FD1-B535-63F54D95F209}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 38.336832
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {198320BB-F61C-4825-85CF-B9D12E1E3EEE}
+      IID 51
+      NAME ""
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE5E7F5D-15E3-441F-A9D8-0E7E813BA3A6}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {4EDD7FD5-D982-470A-81E7-C6C043FCCECD}
+        E 0 b2 00 7b
+        E 0 b2 20 00
+        E 0 c2 02 00
+        E 0 b2 15 40
+        E 0 b2 07 7f
+        E 0 b2 0b 7f
+        E 0 b2 44 00
+        E 0 b2 05 00
+        E 0 b2 41 00
+        E 0 e2 00 40
+        E 0 e2 00 40
+        E 0 b2 14 00
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 300 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 300 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 300 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 300 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 300 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 300 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 300 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 300 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 60 e2 00 40
+        E 0 92 35 7f
+        E 180 82 35 00
+        E 300 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 40 7f
+        E 180 82 40 00
+        E 60 e2 00 40
+        E 0 92 3c 7f
+        E 180 82 3c 00
+        E 60 e2 00 40
+        E 0 92 3b 7f
+        E 420 82 3b 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 30 7f
+        E 180 82 30 00
+        E 300 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 300 e2 00 40
+        E 0 92 3d 7f
+        E 420 82 3d 00
+        E 300 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 3e 7f
+        E 360 82 3e 00
+        E 120 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 3e 7f
+        E 360 82 3e 00
+        E 120 c2 02 00
+        E 0 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 300 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 e2 00 40
+        E 0 92 33 7f
+        E 180 82 33 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 3d 7f
+        E 420 82 3d 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 3d 7f
+        E 420 82 3d 00
+        E 60 e2 00 40
+        E 0 92 3c 7f
+        E 180 82 3c 00
+        E 60 e2 00 40
+        E 0 92 40 7f
+        E 180 82 40 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 3c 7f
+        E 180 82 3c 00
+        E 60 e2 00 40
+        E 0 92 40 7f
+        E 180 82 40 00
+        E 60 e2 00 40
+        E 0 92 43 7f
+        E 180 82 43 00
+        E 60 e2 00 40
+        E 0 92 40 7f
+        E 180 82 40 00
+        E 60 e2 00 40
+        E 0 92 3c 7f
+        E 180 82 3c 00
+        E 60 b2 00 7b
+        E 0 b2 20 00
+        E 0 c2 02 00
+        E 0 b2 15 40
+        E 0 e2 00 40
+        E 0 b2 14 00
+        E 0 b2 07 7f
+        E 0 b2 44 00
+        E 0 e2 00 40
+        E 0 b2 05 00
+        E 0 b2 41 00
+        E 0 b2 0b 7f
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 300 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 e2 00 40
+        E 0 92 37 7f
+        E 180 82 37 00
+        E 60 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 43 7f
+        E 420 82 43 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 c2 0e 00
+        E 0 e2 00 40
+        E 0 92 41 7f
+        E 420 82 41 00
+        E 60 c2 02 00
+        E 0 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 280 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 280 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 280 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 280 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 280 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 280 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 280 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 280 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 280 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 38 7f
+        E 200 82 38 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 280 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 280 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 30 7f
+        E 200 82 30 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 280 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 280 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 35 7f
+        E 200 82 35 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 280 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 280 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 32 7f
+        E 200 82 32 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 280 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 37 7f
+        E 200 82 37 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 280 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 280 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3c 7f
+        E 200 82 3c 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 280 e2 00 40
+        E 0 92 3a 7f
+        E 200 82 3a 00
+        E 40 e2 00 40
+        E 0 92 3a 7f
+        E 860 82 3a 00
+        E 100 e2 00 40
+        E 0 92 3b 7f
+        E 860 82 3b 00
+        E 100 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {F9A57836-5DA4-4571-AF2A-8E688567342A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 50
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+      >
+    >
+  >
+  <TRACK {19F3EC64-AC84-4DB7-B8FB-FB843BE9CE07}
+    NAME "Native noise - MIDI 10"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {19F3EC64-AC84-4DB7-B8FB-FB843BE9CE07}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 38.336832
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {423DA916-DE69-4BA1-8310-8366929909DF}
+      IID 52
+      NAME ""
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {481B4244-3E16-4D24-948E-85D265FD690E}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {79CA5292-C37D-4099-BAAC-CF6EF56CDD63}
+        E 0 b9 00 7b
+        E 0 b9 20 00
+        E 0 c9 0c 00
+        E 0 b9 15 40
+        E 0 b9 07 7f
+        E 0 b9 0b 7f
+        E 0 b9 44 00
+        E 0 b9 05 00
+        E 0 b9 41 00
+        E 0 b9 14 00
+        E 0 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0b 66
+        E 180 89 0b 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 60 99 0b 66
+        E 180 89 0b 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 60 99 0b 66
+        E 180 89 0b 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 b9 00 7b
+        E 0 b9 20 00
+        E 0 c9 0c 00
+        E 0 b9 15 40
+        E 0 b9 14 00
+        E 0 b9 07 7f
+        E 0 b9 44 00
+        E 0 b9 05 00
+        E 0 b9 41 00
+        E 0 b9 0b 7f
+        E 0 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 03 66
+        E 180 89 03 00
+        E 60 99 0c 66
+        E 360 89 0c 00
+        E 120 99 07 66
+        E 180 89 07 00
+        E 60 99 0e 66
+        E 180 89 0e 00
+        E 60 99 0c 66
+        E 180 89 0c 00
+        E 300 99 07 66
+        E 180 89 07 00
+        E 300 99 07 66
+        E 180 89 07 00
+        E 300 99 07 66
+        E 180 89 07 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 300 99 07 66
+        E 180 89 07 00
+        E 60 99 0b 66
+        E 180 89 0b 00
+        E 60 99 09 66
+        E 180 89 09 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 60 99 0b 66
+        E 180 89 0b 00
+        E 60 99 09 66
+        E 180 89 09 00
+        E 60 99 07 66
+        E 180 89 07 00
+        E 60 99 02 66
+        E 180 89 02 00
+        E 60 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {3504C137-7EF1-4280-91BE-B009CD82085F}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 51
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+      >
+    >
+  >
+>

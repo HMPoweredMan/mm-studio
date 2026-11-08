@@ -1,0 +1,17 @@
+{
+  "track": "Tomahawk Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 927,
+  "midiChannelEvents": 2507,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 57.505,
+  "loopStartSeconds": 6.389472000000002,
+  "loopEndSeconds": 57.50524800000028,
+  "peak": 0.30230712890625,
+  "rms": 0.05802801414994017,
+  "midiSha256": "03179e206d035b89e65ea76043c967057725caf3f3175d1bb7d83fa287d10b77",
+  "projectSha256": "c5d367f59094e720ae5e97cae8f66ce31d3f67c4f5615618848fc60d9776a8f4"
+}
