@@ -23,7 +23,22 @@ public:
  void clearWarnings(){warnings=0;reason=Ok;}
  void warn(Reason why,int ch){reason=why;lastChannel=ch+1;warnings++;}
  void bank(int ch,bool lsb,int v){if(ch>=0&&ch<16)(lsb?patches[ch].pendingLSB:patches[ch].pendingMSB)=std::clamp(v,0,127);}
- void program(int ch,int v){if(ch>=0&&ch<16){auto& p=patches[ch];p.program=std::clamp(v,0,127);p.msb=p.pendingMSB;p.lsb=p.pendingLSB;}}
+ void program(int ch,int v){
+  if(ch<0||ch>=16)return;auto& p=patches[ch];const bool wasNative=nativeProgramCount(p.msb)&&p.lsb==0;
+  p.program=std::clamp(v,0,127);p.msb=p.pendingMSB;p.lsb=p.pendingLSB;
+  const int instrument=p.lsb==0?nativeInstrument(p.msb,p.program):-1;
+  if(!wasNative||instrument<0)return;
+  // Native-bank commits update held native voices through opcode 08. Keep
+  // released tails and fixed-duration GM one-shots frozen at their attack.
+  for(auto& h:held[ch])if(h.down&&!h.recipe.ticks)h.recipe.instrument=instrument;
+  for(int i=0;i<kMachines*4;i++){
+   auto& s=slots[i];if(!s.active||s.channel!=ch||s.recipe.ticks)continue;
+   s.recipe.instrument=instrument;const int voice=i%4;
+   lastVoices[voice].preset=instrument;lastVoices[voice].program=p.program;
+   if(!s.muted)cores[i/4].instrument(voice,instrument);
+   if(cores[i/4].failed())warn(EngineFault,ch);
+  }
+ }
  int portaSpeed(int ch)const{return portaEnabled[ch]?std::clamp(128-portaTime[ch],1,127):0;}
  void portamento(int ch,bool enable,int time){if(ch<0||ch>15)return;portaEnabled[ch]=enable;portaTime[ch]=std::clamp(time,0,127);for(int i=0;i<kMachines*4;i++)if(slots[i].channel==ch&&i%4)cores[i/4].portamento(i%4,portaSpeed(ch));}
  bool bend(int ch,int raw){

@@ -1,9 +1,17 @@
 {
-  "savedProjectReopened": true,
-  "allMidiChannelEventsMatch": true,
-  "channelEvents": 8582,
-  "reaperAddedEndOfTakeAllNotesOff": 4,
-  "renderSeconds": 150.946,
-  "peak": 0.34814453125,
-  "rms": 0.05880199815100656
+  "track": "Gravity Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1719,
+  "midiChannelEvents": 4666,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 81.637,
+  "loopStartSeconds": 12.327723125000015,
+  "loopEndSeconds": 81.63732312500066,
+  "peak": 0.325531005859375,
+  "rms": 0.05832849945381189,
+  "midiSha256": "021cf5baf30738bbca298237cf3da73a9fed17f42c00e0850e8f70b8d86a92a6",
+  "projectSha256": "f2846691ff5fbae2bbd76e8e257d820d2a0ba16aca23aa0abd324f3e810df06d"
 }

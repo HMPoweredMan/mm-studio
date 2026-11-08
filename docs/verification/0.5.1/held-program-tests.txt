@@ -1,0 +1,1 @@
+PASS: 284 independent native trace cases; 1096 mapped held program changes; pitch/gate and note-off preserved, legato return, cross-bank, released-tail, fixed-drum and mute semantics

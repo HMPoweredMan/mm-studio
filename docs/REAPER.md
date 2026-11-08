@@ -4,7 +4,7 @@ Verified manually with MM Studio 0.5.0 and a fresh REAPER 7.82 configuration on 
 
 ## Record clicks on the plugin's drum pads
 
-1. Insert one ordinary track (`Ctrl+T`). Click its **FX** button and add **VST3i: MM Studio 0.5.0** to the normal track FX chain.
+1. Insert one ordinary track (`Ctrl+T`). Click its **FX** button and add **VST3i: MM Studio 0.5.1** to the normal track FX chain.
 2. Close the FX window temporarily. Right-click that same track's red record-arm button. Choose **Record: output > Record: output (MIDI)**. Leave the output mode at **Post-Fader** (the default).
 3. In that menu, ensure **Monitor Input** is checked. Left-click the record-arm button so it lights red.
 4. Reopen the FX window. Choose **Percussion / channel 10**, then the desired collection.
@@ -34,3 +34,7 @@ Select the controller as the track's MIDI input, enable **Play pads from MIDI**,
 ## Verification evidence
 
 A fresh single-track REAPER test project was created through ordinary UI actions. It contains two mouse-triggered notes on channel 10: pitch 4 / velocity 85, and pitch 2 / velocity 68, each with its matching note-off and preceding native bank/program/CC messages. The track's saved record mode is MIDI output. Dummy audio was used to isolate this MIDI capture test; this test does not qualify audio-device latency.
+
+## Updating to 0.5.1
+
+Install the complete `MM Studio 0.5.1.vst3` bundle and rescan. The five example projects have been rebuilt with this version. Older projects retain their previous plugin identity: replace the old instrument explicitly to use 0.5.1, then restore its settings. Keep the older plugin installed if you need those projects unchanged. The original single-track recording workflow above remains applicable.

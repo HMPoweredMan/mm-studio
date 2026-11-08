@@ -1,9 +1,17 @@
 {
-  "savedProjectReopened": true,
-  "allMidiChannelEventsMatch": true,
-  "channelEvents": 4247,
-  "reaperAddedEndOfTakeAllNotesOff": 4,
-  "renderSeconds": 79.868,
+  "track": "Snake Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 819,
+  "midiChannelEvents": 2276,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 41.531,
+  "loopStartSeconds": 3.1947360000000002,
+  "loopEndSeconds": 41.53156800000035,
   "peak": 0.350921630859375,
-  "rms": 0.05502744966771499
+  "rms": 0.05495111166667732,
+  "midiSha256": "fc978b4c847407e9852ab4f061ddfe6e275f90fd6d500527e75415104e57bfba",
+  "projectSha256": "846bbc3a2788560799abbf2c8c0ee200470229b47f6b78c3bd368e50631454e1"
 }

@@ -1,0 +1,17 @@
+{
+  "track": "Skull Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 794,
+  "midiChannelEvents": 2315,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 46.62,
+  "loopStartSeconds": 0.0,
+  "loopEndSeconds": 46.620279999999916,
+  "peak": 0.3848876953125,
+  "rms": 0.06722988214338833,
+  "midiSha256": "79a2cf0b3ca9aa0acb6c785ac7db993a109728fe9b6bceee89d72cded65dddd0",
+  "projectSha256": "eab41ba45a7323e79c58bb6eef3e7951f80bdf92061b3dc70b6e8cc599ad40bf"
+}

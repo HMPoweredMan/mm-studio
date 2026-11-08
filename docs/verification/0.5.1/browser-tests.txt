@@ -1,0 +1,1 @@
+PASS: four native-first game menus, hidden GM collection fallback, 121 visible collections, stable IDs and 822 program/voice labels

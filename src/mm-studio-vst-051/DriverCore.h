@@ -77,6 +77,13 @@ public:
         held[voice]=duration==0;releaseAge[voice]=0;
         if(duration>0){low_mem[0x738+x]=uint8_t(duration);low_mem[0x740+x]=uint8_t(std::max(1,duration*gate/256));}
     }
+    void instrument(int voice,int preset) {
+        if(bad||voice<0||voice>3||preset<0||preset>=kInternalInstrumentCount)return;
+        // Native opcode 08: select the definition and arm its native envelope
+        // transition. Do not run the key-on path or rewrite pitch/gate/glide.
+        low_mem[0xc3]=uint8_t(preset);
+        call(0x866f,0,voice+0x28);
+    }
     void noteOff(int voice,bool immediate=false) {
         if(bad||voice<0||voice>3)return;held[voice]=false;releaseAge[voice]=0;
         // A short MIDI gate may end before this native frame has processed

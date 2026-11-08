@@ -2,7 +2,7 @@
 
 A Windows VST3 instrument for composing and performing with the Mega Man 3, 4, 5 and 6 NES sound-driver instruments.
 
-[Download the Windows release](https://github.com/HMPoweredMan/mm-studio/releases/latest) Â· [REAPER setup](docs/REAPER.md) Â· [Build from source](BUILDING.md) Â· [MIDI/import guide](docs/MIDI.md)
+[Download the Windows release](https://github.com/HMPoweredMan/mm-studio/releases/latest) Â· [REAPER setup](docs/REAPER.md) Â· [Build from source](BUILDING.md) Â· [MIDI controls](docs/MIDI.md)
 
 ## What it does
 
@@ -11,11 +11,11 @@ A Windows VST3 instrument for composing and performing with the Mega Man 3, 4, 5
 - Live duty, volume, expression, glide, pitch bend and fine-tune controls, with MIDI Learn.
 - Program/CC output for recording settings, plus draggable settings and drum articulations.
 
-Current release: **0.5.0**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
+Current release: **0.5.1**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
 
 ## Install
 
-Download and extract the release ZIP. Copy the entire `MM Studio 0.5.0.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio 0.5.0** as an instrument. The release includes the REAPER bank file and Dark Man, Snake Man, Gravity Man, Knight Man and Skull Man MIDI projects.
+Download and extract the release ZIP. Copy the entire `MM Studio 0.5.1.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio 0.5.1** as an instrument. The release includes the REAPER bank file and Dark Man, Snake Man, Gravity Man, Knight Man and Skull Man MIDI projects.
 
 MIDI channels are 1 = Pulse 1, 2 = Pulse 2, 3 = Triangle, and 10 = Percussion. Toms share the triangle voice with bass. Use the game/song navigator to find sounds; program numbers select native instruments and CCs control their performance settings.
 
@@ -27,7 +27,7 @@ See [examples](examples/README.md) for five editable MIDI files and ready-to-pla
 
 ## Compatibility and limitations
 
-Hardware voices are monophonic in strict mode. Toms share the triangle voice with bass. Held-note program changes remain a known playback limitation, and some percussion names are provisional. See [0.5.0 notes and validation](docs/MM_STUDIO_050.md).
+Hardware voices are monophonic in strict mode. Toms share the triangle voice with bass. Native-bank program changes update sounding notes through the driver. Some percussion names are provisional. See [0.5.1 notes and validation](docs/MM_STUDIO_051.md).
 
 This public project contains the instrument, presets, examples and build sources. Game integration and the separate MIDI importer are outside its scope.
 

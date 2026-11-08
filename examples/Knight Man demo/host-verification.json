@@ -1,0 +1,17 @@
+{
+  "track": "Knight Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1123,
+  "midiChannelEvents": 2355,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
+  "renderSeconds": 64.235,
+  "loopStartSeconds": 5.931904500000003,
+  "loopEndSeconds": 64.23583649999986,
+  "peak": 0.351776123046875,
+  "rms": 0.05898195003325127,
+  "midiSha256": "785f710410a268c7b3c874a4dd6252f44af0e427abfd0150fd0a59062b516f48",
+  "projectSha256": "52e601b4c5ced550d57ba18c47a46a4329723afe891b74f98fe07db7e6437aab"
+}

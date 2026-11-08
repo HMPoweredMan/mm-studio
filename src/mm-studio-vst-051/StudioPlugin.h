@@ -14,8 +14,8 @@
 #include "pluginterfaces/vst/ivstparameterchanges.h"
 namespace mm5studio {
 using namespace Steinberg;using namespace Steinberg::Vst;
-inline const FUID kProcessorUID(0x02F03462,0xC9574B5F,0xA826AD5B,0x44BE1329);
-inline const FUID kControllerUID(0x02F03462,0xC9574B5F,0xA826AD5B,0x44BE132A);
+inline const FUID kProcessorUID(0x02F03462,0xC9574B5F,0xA826AD5B,0x44BE1331);
+inline const FUID kControllerUID(0x02F03462,0xC9574B5F,0xA826AD5B,0x44BE1332);
 inline constexpr int kMain=4,kLegacyCount=kMain+48+32+16+4+64+3+75,kCount=kLegacyCount+16,kStored=kCount+32;
 inline constexpr ParamID kOutput=100,kMode=101,kPreviewChannel=102,kPreviewNote=103,kReset=200;
 inline ParamID paramID(int i){return i>=246?3400+i-246:i==245?503:i==244?502:i>=173?600+i-173:i==172?501:i==171?500:i>=168?400+i-168:i>=104?3000+(i-104)/16*100+(i-104)%16:i>=100?300+i-100:i<kMain?100+i:i<52?1000+i-kMain:i>=84?2400+i-84:2200+(i-52)/2+((i-52)%2)*100;}

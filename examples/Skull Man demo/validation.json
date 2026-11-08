@@ -1,0 +1,44 @@
+{
+  "notes": 794,
+  "channels": {
+    "1": 126,
+    "2": 118,
+    "3": 324,
+    "10": 226
+  },
+  "tempoChanges": 1,
+  "loopStartTick": 0,
+  "loopEndTick": 6720,
+  "loopStartSeconds": 0,
+  "durationSeconds": 46.62028,
+  "sourceLoopsVerified": 2,
+  "programs": [
+    0,
+    1,
+    3,
+    4,
+    13,
+    23,
+    24,
+    25
+  ],
+  "bank": [
+    124,
+    0
+  ],
+  "validation": "Saved first-pass MIDI decoded against original-ROM trace: attacks, pitches, gates, programs, duty, levels, detune, glide, tempo and markers. Later-loop detune carry-over intentionally excluded from this shortened example.",
+  "heldProgramChanges": [
+    {
+      "tick": 4704,
+      "voice": 3,
+      "program": 3
+    },
+    {
+      "tick": 5472,
+      "voice": 3,
+      "program": 3
+    }
+  ],
+  "heldProgramBehavior": "MM Studio 0.5.1 applies native instrument changes to sounding notes without a new attack.",
+  "loopTuning": "Repeats first-pass tuning; later native passes carry a +1 Pulse 2 detune in some phrases."
+}

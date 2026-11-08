@@ -13,4 +13,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: MM-Studio-Windows-x64
-          path: build/vst3-studio-050/cmake-release/VST3/Release/MM Studio 0.5.0.vst3/
+          path: build/vst3-studio-051/cmake-release/VST3/Release/MM Studio 0.5.1.vst3/

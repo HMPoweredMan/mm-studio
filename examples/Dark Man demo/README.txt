@@ -1,6 +1,6 @@
 Dark Man / Proto Man stage theme - Mega Man 5
 
-Requires MM Studio 0.5.0. Open the REAPER project or import the MIDI tempo map.
+Requires MM Studio 0.5.1. Open the REAPER project or import the MIDI tempo map.
 Full 24-bar loop; LOOP_START/LOOP_END mark the repeat range.
 Channels 1/2/3/10 = pulse 1/pulse 2/triangle/native noise; bank 125/0.
 Keep Strict NES hardware enabled and Play pads from MIDI disabled.

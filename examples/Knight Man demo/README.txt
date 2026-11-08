@@ -1,6 +1,6 @@
 Knight Man / Mega Man 6 - MM Studio example
 
-Requires MM Studio 0.5.0. Import the MIDI with its tempo map, or open the supplied REAPER project.
+Requires MM Studio 0.5.1. Import the MIDI with its tempo map, or open the supplied REAPER project.
 Channels: 1 pulse 1, 2 pulse 2, 3 triangle, 10 native noise. Bank MSB 126 / LSB 0.
 Keep Strict NES hardware enabled and Play pads from MIDI disabled.
 The full intro leads into LOOP_START, followed by one complete main loop ending at LOOP_END.

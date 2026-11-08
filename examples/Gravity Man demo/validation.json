@@ -1,16 +1,16 @@
 {
-  "notes": 3204,
+  "notes": 1719,
   "channels": {
-    "1": 459,
-    "2": 871,
-    "3": 617,
-    "10": 1257
+    "1": 254,
+    "2": 460,
+    "3": 336,
+    "10": 669
   },
   "tempoChanges": 1,
-  "loopStartTick": 9046,
-  "loopEndTick": 16726,
-  "loopStartSeconds": 81.63732312500001,
-  "durationSeconds": 150.94692312499998,
+  "loopStartTick": 1366,
+  "loopEndTick": 9046,
+  "loopStartSeconds": 12.327723125,
+  "durationSeconds": 81.63732312500001,
   "sourceLoopsVerified": 2,
   "programs": [
     0,
@@ -81,47 +81,7 @@
       "tick": 8964,
       "voice": 3,
       "program": 11
-    },
-    {
-      "tick": 9648,
-      "voice": 3,
-      "program": 11
-    },
-    {
-      "tick": 10416,
-      "voice": 3,
-      "program": 11
-    },
-    {
-      "tick": 11184,
-      "voice": 3,
-      "program": 11
-    },
-    {
-      "tick": 11952,
-      "voice": 3,
-      "program": 11
-    },
-    {
-      "tick": 12120,
-      "voice": 3,
-      "program": 24
-    },
-    {
-      "tick": 13656,
-      "voice": 3,
-      "program": 24
-    },
-    {
-      "tick": 16644,
-      "voice": 2,
-      "program": 16
-    },
-    {
-      "tick": 16644,
-      "voice": 3,
-      "program": 11
     }
   ],
-  "playbackLimitation": "Held-note program events are retained; VST applies them on the next attack."
+  "heldProgramBehavior": "MM Studio 0.5.1 applies native instrument changes to sounding notes without a new attack."
 }

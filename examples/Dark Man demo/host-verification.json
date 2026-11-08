@@ -1,9 +1,17 @@
 {
-  "savedProjectReopened": true,
-  "allMidiChannelEventsMatch": true,
-  "channelEvents": 2253,
-  "reaperAddedEndOfTakeAllNotesOff": 4,
+  "track": "Dark Man",
+  "version": "0.5.1",
+  "passed": true,
+  "notes": 1025,
+  "midiChannelEvents": 2253,
+  "savedProjectChannelEventsMatched": true,
+  "host": "REAPER 7.82, isolated configuration",
+  "savedAndReopened": true,
   "renderSeconds": 55.921,
+  "loopStartSeconds": 0.0,
+  "loopEndSeconds": 55.921536000000366,
   "peak": 0.335296630859375,
-  "rms": 0.05905999298194792
+  "rms": 0.05905999298194792,
+  "midiSha256": "78e157f9c8d749743bf9634f9363f2945d51f795cdfc317152baff0b21bba21c",
+  "projectSha256": "1d5693a943492533d417b66c9b04fbe194fd448da1ec4c920a4deb0e2f5a50a9"
 }

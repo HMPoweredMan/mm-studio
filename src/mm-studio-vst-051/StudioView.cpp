@@ -22,8 +22,8 @@ public:
  tresult PLUGIN_API isPlatformTypeSupported(FIDString t)override{return t&&!std::strcmp(t,kPlatformTypeHWND)?kResultTrue:kResultFalse;}
  tresult PLUGIN_API attached(void* parent,FIDString type)override{
   if(isPlatformTypeSupported(type)!=kResultTrue)return kResultFalse;
-  static std::once_flag once;std::call_once(once,[]{WNDCLASSW wc{};wc.style=CS_DBLCLKS;wc.lpfnWndProc=proc;wc.hInstance=ghInst;wc.hCursor=LoadCursor(nullptr,IDC_ARROW);wc.hbrBackground=reinterpret_cast<HBRUSH>(COLOR_WINDOW+1);wc.lpszClassName=L"KSA_MM5_Live_050";RegisterClassW(&wc);});
-  CPluginView::attached(parent,type);window=CreateWindowExW(WS_EX_CONTROLPARENT,L"KSA_MM5_Live_050",L"MM Studio 0.5.0",WS_VISIBLE|WS_CHILD|WS_CLIPCHILDREN|WS_TABSTOP,0,0,1040,790,static_cast<HWND>(parent),nullptr,ghInst,this);if(!window)return kResultFalse;
+  static std::once_flag once;std::call_once(once,[]{WNDCLASSW wc{};wc.style=CS_DBLCLKS;wc.lpfnWndProc=proc;wc.hInstance=ghInst;wc.hCursor=LoadCursor(nullptr,IDC_ARROW);wc.hbrBackground=reinterpret_cast<HBRUSH>(COLOR_WINDOW+1);wc.lpszClassName=L"KSA_MM5_Live_051";RegisterClassW(&wc);});
+  CPluginView::attached(parent,type);window=CreateWindowExW(WS_EX_CONTROLPARENT,L"KSA_MM5_Live_051",L"MM Studio 0.5.1",WS_VISIBLE|WS_CHILD|WS_CLIPCHILDREN|WS_TABSTOP,0,0,1040,790,static_cast<HWND>(parent),nullptr,ghInst,this);if(!window)return kResultFalse;
   font=CreateFontW(-16,0,0,0,FW_NORMAL,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY,DEFAULT_PITCH,L"Segoe UI");
   titleFont=CreateFontW(-26,0,0,0,FW_SEMIBOLD,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY,DEFAULT_PITCH,L"Segoe UI");
   auto title=child(L"STATIC",L"MM STUDIO / LIVE PERFORMANCE",0,22,14,700,34);SendMessageW(title,WM_SETFONT,reinterpret_cast<WPARAM>(titleFont),TRUE);

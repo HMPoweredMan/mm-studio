@@ -1,16 +1,16 @@
 {
-  "notes": 1558,
+  "notes": 819,
   "channels": {
-    "1": 320,
-    "2": 268,
-    "3": 390,
-    "10": 580
+    "1": 170,
+    "2": 144,
+    "3": 205,
+    "10": 300
   },
   "tempoChanges": 1,
-  "loopStartTick": 4992,
-  "loopEndTick": 9600,
-  "loopStartSeconds": 41.531568,
-  "durationSeconds": 79.8684,
+  "loopStartTick": 384,
+  "loopEndTick": 4992,
+  "loopStartSeconds": 3.1947360000000002,
+  "durationSeconds": 41.531568,
   "sourceLoopsVerified": 2,
   "programs": [
     0,
@@ -46,22 +46,7 @@
       "tick": 4128,
       "voice": 2,
       "program": 5
-    },
-    {
-      "tick": 8352,
-      "voice": 2,
-      "program": 5
-    },
-    {
-      "tick": 8544,
-      "voice": 2,
-      "program": 5
-    },
-    {
-      "tick": 8736,
-      "voice": 2,
-      "program": 5
     }
   ],
-  "playbackLimitation": "Held-note program events are retained; VST applies them on the next attack."
+  "heldProgramBehavior": "MM Studio 0.5.1 applies native instrument changes to sounding notes without a new attack."
 }

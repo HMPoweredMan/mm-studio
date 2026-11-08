@@ -1,0 +1,1 @@
+PASS: stopped controller snapshots, all four voice channels, committed bank/program, CC7/11 mute preservation, bend endpoints, immutable Unicode cache, CF_HDROP/format enumeration, cancel/drop semantics; standard settings and 298 exact articulation MIDI files written
