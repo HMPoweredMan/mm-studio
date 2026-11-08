@@ -1,0 +1,24 @@
+Dark Man demo: PASS; standard GME NSF player, 8 seconds, peak 19631, RMS 0.114597
+Dust Man demo: PASS; standard GME NSF player, 8 seconds, peak 19691, RMS 0.111399
+Flame Man demo: PASS; standard GME NSF player, 8 seconds, peak 17144, RMS 0.165305
+Gravity Man demo: PASS; standard GME NSF player, 8 seconds, peak 14788, RMS 0.10044
+Knight Man demo: PASS; standard GME NSF player, 8 seconds, peak 17513, RMS 0.11504
+Mega Man 3 Intro demo: PASS; standard GME NSF player, 8 seconds, peak 18427, RMS 0.126735
+MM3 - Mega Man 3 Intro demo: PASS; standard GME NSF player, 8 seconds, peak 18427, RMS 0.126735
+MM3 - Snake Man demo: PASS; standard GME NSF player, 8 seconds, peak 19515, RMS 0.10013
+MM3 - Spark Man demo: PASS; standard GME NSF player, 8 seconds, peak 16944, RMS 0.122063
+MM4 - Dust Man demo: PASS; standard GME NSF player, 8 seconds, peak 19691, RMS 0.111399
+MM4 - Skull Man demo: PASS; standard GME NSF player, 8 seconds, peak 21653, RMS 0.13108
+MM5 - Dark Man demo: PASS; standard GME NSF player, 8 seconds, peak 19193, RMS 0.114712
+MM5 - Gravity Man demo: PASS; standard GME NSF player, 8 seconds, peak 14813, RMS 0.100813
+MM5 - Napalm Man demo: PASS; standard GME NSF player, 8 seconds, peak 15587, RMS 0.119627
+MM5 - Wave Man demo: PASS; standard GME NSF player, 8 seconds, peak 18938, RMS 0.122481
+MM6 - Flame Man demo: PASS; standard GME NSF player, 8 seconds, peak 17023, RMS 0.165284
+MM6 - Knight Man demo: PASS; standard GME NSF player, 8 seconds, peak 16050, RMS 0.115088
+MM6 - Tomahawk Man demo: PASS; standard GME NSF player, 8 seconds, peak 18513, RMS 0.113817
+Napalm Man demo: PASS; standard GME NSF player, 8 seconds, peak 15587, RMS 0.119628
+Skull Man demo: PASS; standard GME NSF player, 8 seconds, peak 21653, RMS 0.13108
+Snake Man demo: PASS; standard GME NSF player, 8 seconds, peak 19515, RMS 0.10013
+Spark Man demo: PASS; standard GME NSF player, 8 seconds, peak 16944, RMS 0.122063
+Tomahawk Man demo: PASS; standard GME NSF player, 8 seconds, peak 18592, RMS 0.113691
+Wave Man demo: PASS; standard GME NSF player, 8 seconds, peak 19409, RMS 0.122447

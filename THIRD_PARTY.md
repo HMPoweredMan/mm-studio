@@ -20,6 +20,7 @@ MIT license in that revision. Downloaded separately into tools/vst3sdk for compi
 ## Extracted Capcom material (not GPL-licensed by this project)
 
 - build/vst3-studio/generated/driver-bank.bin: original Mega Man 5 sound driver/data, with the guarded runtime performance patch applied to a private playback copy.
+- src/mm-studio-vst-060/ExportDrivers.h: original 8 KB Mega Man 3/4/6 sound-driver banks for native export. Source ROMs and bank hashes are recorded in docs/verification/0.6.0/export-driver-provenance.json. MM5 uses the existing driver-bank.bin resource.
 - build/vst3-studio-050/generated/NativeBanks.h and MM6Instruments.h: game instrument definitions from Mega Man 3/4/5/6.
 - SongLibrary.h and derived collection/pad data: original game song notes, control sequences and articulations. Human-readable names and catalog logic are project work; the underlying game data remains separately identified.
 - The twelve MIDI/REAPER examples reproduce original game compositions: Mega Man 3 Intro, Spark Man, Snake Man, Dust Man, Skull Man, Dark Man, Gravity Man, Napalm Man, Wave Man, Flame Man, Knight Man and Tomahawk Man.

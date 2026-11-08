@@ -1,0 +1,1 @@
+PASS: 1056 original-driver comparison fixtures; all 128 fine-tune values across three pitched voices, held/release audio, reset and program boundaries

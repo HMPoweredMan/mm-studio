@@ -10,12 +10,13 @@ A Windows VST3 instrument for composing and performing with the Mega Man 3, 4, 5
 - Game and song collections, named sound recipes and song-specific drum pads.
 - Live duty, volume, expression, glide, pitch bend and fine-tune controls, with MIDI Learn.
 - Program/CC output for recording settings, plus draggable settings and drum articulations.
+- MIDI-to-NSF and native music-data export, with Mega Man 3/4/5/6 and Omni targets.
 
-Current release: **0.5.1**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
+Current release: **0.6.0**, Windows x64, VST3. REAPER is the tested host. Other operating systems and plugin formats are not currently supported. Normal playback uses the included instrument data and does not require loading a game ROM.
 
 ## Install
 
-Download and extract the release ZIP. Copy the entire `MM Studio 0.5.1.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio 0.5.1** as an instrument. The release includes the REAPER bank file and twelve MIDI/REAPER examples covering all four supported games.
+Download and extract the release ZIP. Copy the entire `MM Studio.vst3` folder to `%COMMONPROGRAMFILES%\VST3` or a VST3 directory configured in your DAW. Rescan plugins and add **MM Studio** as an instrument. When upgrading from 0.5.1, replace its old bundle rather than keeping both installed: 0.6.0 preserves the same plugin identity. Existing 0.5.1 REAPER projects resolve to the new bundle. The release includes the REAPER bank file and twelve MIDI/REAPER examples covering all four supported games.
 
 MIDI channels are 1 = Pulse 1, 2 = Pulse 2, 3 = Triangle, and 10 = Percussion. Toms share the triangle voice with bass. Use the game/song navigator to find sounds; program numbers select native instruments and CCs control their performance settings.
 
@@ -29,7 +30,9 @@ See [examples](examples/README.md) for twelve editable MIDI files and ready-to-p
 
 Hardware voices are monophonic in strict mode. Toms share the triangle voice with bass. Native-bank program changes update sounding notes through the driver. Some percussion names are provisional. See [0.5.1 notes and validation](docs/MM_STUDIO_051.md).
 
-This public project contains the instrument, presets, examples and build sources. Game integration and the separate MIDI importer are outside its scope.
+Use **NSF / data...** in the plugin to validate an exported MIDI file and save a standalone NSF or native song data. Choose a game for its original driver/instruments, or Omni for the combined MM Studio instrument table. See [native export](docs/NATIVE_EXPORT.md) and [0.6.0 validation](docs/MM_STUDIO_060.md).
+
+This public project contains the instrument, integrated exporter, presets, examples and build sources. The private game-port integration tools remain outside its scope.
 
 ## Source and licensing
 

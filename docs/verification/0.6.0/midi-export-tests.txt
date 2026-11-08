@@ -1,0 +1,25 @@
+Dark Man demo: PASS; 1025 notes, 2228 bytes
+Dark Man demo: PASS; 1025 notes, 2228 bytes
+Dust Man demo: PASS; 1270 notes, 1891 bytes
+Dust Man demo: PASS; 1270 notes, 1891 bytes
+Flame Man demo: PASS; 1373 notes, 3020 bytes
+Flame Man demo: PASS; 1373 notes, 3020 bytes
+Gravity Man demo: PASS; 1719 notes, 3638 bytes
+Gravity Man demo: PASS; 1719 notes, 3638 bytes
+Knight Man demo: PASS; 1123 notes, 2199 bytes
+Knight Man demo: PASS; 1123 notes, 2199 bytes
+Mega Man 3 Intro demo: PASS; 869 notes, 1781 bytes
+Mega Man 3 Intro demo: PASS; 869 notes, 1781 bytes
+Napalm Man demo: PASS; 1071 notes, 2457 bytes
+Napalm Man demo: PASS; 1071 notes, 2457 bytes
+Skull Man demo: PASS; 794 notes, 1373 bytes
+Skull Man demo: PASS; 794 notes, 1373 bytes
+Snake Man demo: PASS; 819 notes, 1354 bytes
+Snake Man demo: PASS; 819 notes, 1354 bytes
+Spark Man demo: PASS; 951 notes, 1494 bytes
+Spark Man demo: PASS; 951 notes, 1494 bytes
+Tomahawk Man demo: PASS; 927 notes, 2092 bytes
+Tomahawk Man demo: PASS; 927 notes, 2092 bytes
+Wave Man demo: PASS; 1809 notes, 3269 bytes
+Wave Man demo: PASS; 1809 notes, 3269 bytes
+PASS: parser/negative cases, explicit setup, held programs/controls, legato return, GM gate, target restrictions and relocation. Examples: 24 exported, 0 blocked with diagnostics.

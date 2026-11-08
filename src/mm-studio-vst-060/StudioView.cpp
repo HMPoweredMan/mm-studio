@@ -6,6 +6,7 @@
 #include "PadLabels.h"
 #include "CollectionBrowser.h"
 #include "ProgramNames.h"
+#include "NativeExportWindow.h"
 #include <iomanip>
 #include "public.sdk/source/common/pluginview.h"
 #include <mutex>
@@ -22,12 +23,13 @@ public:
  tresult PLUGIN_API isPlatformTypeSupported(FIDString t)override{return t&&!std::strcmp(t,kPlatformTypeHWND)?kResultTrue:kResultFalse;}
  tresult PLUGIN_API attached(void* parent,FIDString type)override{
   if(isPlatformTypeSupported(type)!=kResultTrue)return kResultFalse;
-  static std::once_flag once;std::call_once(once,[]{WNDCLASSW wc{};wc.style=CS_DBLCLKS;wc.lpfnWndProc=proc;wc.hInstance=ghInst;wc.hCursor=LoadCursor(nullptr,IDC_ARROW);wc.hbrBackground=reinterpret_cast<HBRUSH>(COLOR_WINDOW+1);wc.lpszClassName=L"KSA_MM5_Live_051";RegisterClassW(&wc);});
-  CPluginView::attached(parent,type);window=CreateWindowExW(WS_EX_CONTROLPARENT,L"KSA_MM5_Live_051",L"MM Studio 0.5.1",WS_VISIBLE|WS_CHILD|WS_CLIPCHILDREN|WS_TABSTOP,0,0,1040,790,static_cast<HWND>(parent),nullptr,ghInst,this);if(!window)return kResultFalse;
+  static std::once_flag once;std::call_once(once,[]{WNDCLASSW wc{};wc.style=CS_DBLCLKS;wc.lpfnWndProc=proc;wc.hInstance=ghInst;wc.hCursor=LoadCursor(nullptr,IDC_ARROW);wc.hbrBackground=reinterpret_cast<HBRUSH>(COLOR_WINDOW+1);wc.lpszClassName=L"KSA_MM5_Live_060";RegisterClassW(&wc);});
+  CPluginView::attached(parent,type);window=CreateWindowExW(WS_EX_CONTROLPARENT,L"KSA_MM5_Live_060",L"MM Studio 0.6.0",WS_VISIBLE|WS_CHILD|WS_CLIPCHILDREN|WS_TABSTOP,0,0,1040,790,static_cast<HWND>(parent),nullptr,ghInst,this);if(!window)return kResultFalse;
   font=CreateFontW(-16,0,0,0,FW_NORMAL,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY,DEFAULT_PITCH,L"Segoe UI");
   titleFont=CreateFontW(-26,0,0,0,FW_SEMIBOLD,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY,DEFAULT_PITCH,L"Segoe UI");
   auto title=child(L"STATIC",L"MM STUDIO / LIVE PERFORMANCE",0,22,14,700,34);SendMessageW(title,WM_SETFONT,reinterpret_cast<WPARAM>(titleFont),TRUE);
   child(L"BUTTON",L"All sound off",BS_PUSHBUTTON,866,16,150,32,10);
+  child(L"BUTTON",L"NSF / data...",BS_PUSHBUTTON,744,16,112,32,80);
   child(L"STATIC",L"Voice / MIDI channel",0,22,60,215,22);voice=combo(22,84,218,11);for(auto s:{L"Pulse 1 / channel 1",L"Pulse 2 / channel 2",L"Triangle / channel 3",L"Percussion / channel 10"})add(voice,s);
   child(L"STATIC",L"Native program",0,260,60,445,22);program=combo(260,84,450,12);
   child(L"BUTTON",L"Send current settings",BS_PUSHBUTTON,744,81,272,30,13);
@@ -155,7 +157,7 @@ private:
   if(msg==WM_LBUTTONUP&&s->drag>=0){s->drag=-1;ReleaseCapture();return 0;}
   if(msg==WM_CAPTURECHANGED){s->drag=-1;return 0;}
   if(msg==WM_KEYDOWN&&(w==VK_UP||w==VK_DOWN||w==VK_LEFT||w==VK_RIGHT)){const int k=s->focused;if(k>=6)return 0;const double amount=k==0?1./3:k==4?.25:1./127;s->editKnob(k,(k==0?(s->param(liveParam(s->target(k)))/32)/3.:s->controller->getParamNormalized(liveParam(s->target(k))))+((w==VK_UP||w==VK_RIGHT)?amount:-amount));return 0;}
-  if(msg==WM_COMMAND){const int id=LOWORD(w),code=HIWORD(w);
+  if(msg==WM_COMMAND){const int id=LOWORD(w),code=HIWORD(w);if(id==80&&code==BN_CLICKED){showNativeExport(h,ghInst);return 0;}
    if(code==BN_CLICKED){if(id==73)s->controller->performanceEdit(503,SendMessageW(s->padRepeat,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==72)s->controller->performanceEdit(502,SendMessageW(s->padDynamics,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==70){s->controller->performanceEdit(501,s->param(301,kSongCount-1)/double(kSongCount-1));s->controller->performanceEdit(500,SendMessageW(s->padMode,BM_GETCHECK,0,0)==BST_CHECKED?1:0);}if(id==71){s->controller->command("PadLearn",-1);for(int i=0;i<71;i++)s->controller->performanceEdit(600+i,(9*128+36+i+1)/2048.);}if(id>=60&&id<68){const int slot=s->padPage*8+id-60;if(slot<int(s->padRecipes.size())){s->padSelected=s->padRecipes[slot];s->controller->edit(303,s->padSelected/double(kSoundCount-1));s->controller->command("PercussionHit",s->padSelected);s->controller->setDirty(true);s->setDetails();}}if(id==68||id==69){s->padPage+=id==68?-1:1;s->showPads();}if(id==10)s->controller->command("Panic");if(id==13)s->controller->command("Send",s->part());if(id==20)s->controller->performanceEdit(2300+s->channel(),SendMessageW(s->porta,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==21)s->controller->performanceEdit(3300+s->channel(),SendMessageW(s->legato,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==22)s->controller->edit(402,SendMessageW(s->pickup,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==23)s->controller->edit(400,SendMessageW(s->emitStart,BM_GETCHECK,0,0)==BST_CHECKED?1:0);if(id==24){s->controller->command("Forget",s->target(s->focused));s->controller->setDirty(true);}if(id==31){s->showReference=SendMessageW(s->reference,BM_GETCHECK,0,0)==BST_CHECKED;s->rebuild();}if(id==33)s->load();if(id==34&&s->selected()>=0)s->controller->command("LibraryPlay",s->selected());if(id==35)s->controller->command("LibraryPlay",-1);if(id>=40&&id<=47){s->focused=id==47?5:id==45?6:id==46?7:id-40;const int t=s->target(s->focused);s->controller->command("Learn",s->controller->learning.load()==t?-1:t);s->controller->setDirty(true);}s->refresh();return 0;}
    if(id==32&&code==LBN_DBLCLK){s->load();return 0;}if(id==32&&code==LBN_SELCHANGE){s->shownSound=s->selected();if(s->shownSound>=0)s->controller->edit(303,s->shownSound/double(kSoundCount-1));s->setDetails();return 0;}
    if(code==CBN_SELCHANGE){const int value=int(SendMessageW(reinterpret_cast<HWND>(l),CB_GETCURSEL,0,0));if(value<0)return 0;if(id==11){s->controller->edit(401,value/3.);if(value==3)s->controller->performanceEdit(501,s->param(301,kSongCount-1)/double(kSongCount-1));}if(id==74){const int collection=browserFirstCollection(value);s->controller->edit(301,collection/double(kSongCount-1));if(s->part()==3)s->controller->performanceEdit(501,collection/double(kSongCount-1));}if(id==30){const int collection=int(SendMessageW(s->song,CB_GETITEMDATA,value,0));s->controller->edit(301,collection/double(kSongCount-1));if(s->part()==3)s->controller->performanceEdit(501,collection/double(kSongCount-1));}if(id==36)s->controller->edit(kMode,value);

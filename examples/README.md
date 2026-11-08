@@ -1,6 +1,6 @@
 # Example tracks
 
-Each folder contains a standard MIDI file and a REAPER project using MM Studio 0.5.1. Install/rescan the plugin before opening a project. No external samples or game ROM are required for playback.
+Each folder contains a standard MIDI file and a REAPER project using MM Studio 0.5.1. Install/rescan MM Studio 0.6.0 before opening a project. The saved 0.5.1 plugin identity is preserved in 0.6.0; replace the old bundle when upgrading. No external samples or game ROM are required for playback.
 
 | Track | Game | Bank MSB | Focus |
 | --- | --- | ---: | --- |

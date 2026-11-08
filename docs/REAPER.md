@@ -4,7 +4,7 @@ Verified manually with MM Studio 0.5.0 and a fresh REAPER 7.82 configuration on 
 
 ## Record clicks on the plugin's drum pads
 
-1. Insert one ordinary track (`Ctrl+T`). Click its **FX** button and add **VST3i: MM Studio 0.5.1** to the normal track FX chain.
+1. Insert one ordinary track (`Ctrl+T`). Click its **FX** button and add **VST3i: MM Studio** to the normal track FX chain.
 2. Close the FX window temporarily. Right-click that same track's red record-arm button. Choose **Record: output > Record: output (MIDI)**. Leave the output mode at **Post-Fader** (the default).
 3. In that menu, ensure **Monitor Input** is checked. Left-click the record-arm button so it lights red.
 4. Reopen the FX window. Choose **Percussion / channel 10**, then the desired collection.
@@ -38,3 +38,7 @@ A fresh single-track REAPER test project was created through ordinary UI actions
 ## Updating to 0.5.1
 
 Install the complete `MM Studio 0.5.1.vst3` bundle and rescan. The five example projects have been rebuilt with this version. Older projects retain their previous plugin identity: replace the old instrument explicitly to use 0.5.1, then restore its settings. Keep the older plugin installed if you need those projects unchanged. The original single-track recording workflow above remains applicable.
+
+## Native export in 0.6.0
+
+Export the intended project tracks as a standard MIDI file with tempo map and named LOOP_START/LOOP_END markers. Open **NSF / data...** in MM Studio, select the file and target game or Omni, validate, and save. See [native export](NATIVE_EXPORT.md). Existing 0.5.1 projects resolve to the new stable **MM Studio.vst3** bundle using the preserved plugin ID; remove the old duplicate bundle when upgrading. This resolution was verified in an isolated REAPER configuration.
